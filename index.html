@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>UOL AI Assistant</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<div class="app">
+
+    <div class="background">
+        <img src="assets/uni_bg.png" alt="University Background">
+    </div>
+
+    <!-- LANDING PAGE -->
+    <main class="content" id="landingPage">
+
+        <header class="header">
+            <img src="assets/uni_logo.png" class="logo" alt="University of Layyah Logo">
+            <div class="header-text">
+                <div class="title">University of Layyah</div>
+                <div class="subtitle">AI Assistant</div>
+            </div>
+        </header>
+
+        <section class="robot-area">
+            <div class="robot-glow"></div>
+            <img src="assets/robo.png" class="robot" id="mainRobot" alt="UOL AI Assistant Robot">
+        </section>
+
+        <section class="intro">
+            <h1 class="heading">
+                Hi, I'm UOL<br>
+                <span class="gradient">AI Assistant</span>
+            </h1>
+            <p class="description">
+                Your smart companion for everything related to University of Layyah.
+            </p>
+        </section>
+
+        <section class="features">
+            <div class="feature-grid">
+
+                <div class="feature" data-name="Tell me about Admissions">
+                    <div class="feature-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <span class="feature-name">Admissions</span>
+                </div>
+
+                <div class="feature" data-name="What Scholarships are available?">
+                    <div class="feature-icon"><i class="fa-solid fa-trophy"></i></div>
+                    <span class="feature-name">Scholarships</span>
+                </div>
+
+                <div class="feature" data-name="Explain the Fee Structure">
+                    <div class="feature-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                    <span class="feature-name">Fee Structure</span>
+                </div>
+
+                <div class="feature" data-name="List all Departments">
+                    <div class="feature-icon"><i class="fa-solid fa-building-columns"></i></div>
+                    <span class="feature-name">Departments</span>
+                </div>
+
+                <div class="feature" data-name="Show Timetables">
+                    <div class="feature-icon"><i class="fa-regular fa-calendar-days"></i></div>
+                    <span class="feature-name">Timetables</span>
+                </div>
+
+                <div class="feature" data-name="Connect to Student Services">
+                    <div class="feature-icon"><i class="fa-solid fa-headset"></i></div>
+                    <span class="feature-name">Student Services</span>
+                </div>
+
+            </div>
+        </section>
+
+        <button class="start-chat" id="startChat" type="button">
+            <span>Start Chat</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </main>
+
+    <!-- CHAT INTERFACE (2nd Screen) -->
+    <section class="chat-interface hidden" id="chatInterface">
+        <!-- Chat Header -->
+        <div class="chat-header">
+            <button class="back-btn" id="backBtn" aria-label="Go Back">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="chat-bot-info">
+                <img src="assets/robo.png" alt="Bot Avatar" class="chat-avatar" id="headerRobot">
+                <div class="chat-titles">
+                    <h3>UOL Assistant</h3>
+                    <span class="online-status">Online</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Messages Area -->
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                <img src="assets/robo.png" alt="Avatar" class="msg-avatar">
+                <div class="bubble">
+                    Hello! Welcome to the University of Layyah. How can I help you today?
+                </div>
+            </div>
+            
+            <div class="message bot typing-indicator-container hidden" id="typingIndicator">
+                <img src="assets/robo.png" alt="Avatar" class="msg-avatar">
+                <div class="bubble typing-bubble">
+                    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Input Area -->
+        <div class="chat-input-area">
+            <div class="input-wrapper">
+                <input type="text" id="chatInput" placeholder="Type your message here..." autocomplete="off">
+                <button id="sendBtn" class="send-btn" aria-label="Send Message">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
