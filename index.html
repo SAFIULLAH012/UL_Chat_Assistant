@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
@@ -29,6 +29,10 @@
                 <div class="title">University of Layyah</div>
                 <div class="subtitle">AI Assistant</div>
             </div>
+            
+            <button id="mainThemeToggle" class="main-theme-toggle" aria-label="Toggle Theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
         </header>
 
         <section class="robot-area">
@@ -38,7 +42,7 @@
 
         <section class="intro">
             <h1 class="heading">
-                Hi, I'm UOL<br>
+                Hi, I'm UL<br>
                 <span class="gradient">AI Assistant</span>
             </h1>
             <p class="description">
@@ -103,14 +107,32 @@
                     <span class="online-status">Online</span>
                 </div>
             </div>
+            <button class="settings-btn" id="openSettingsBtn" aria-label="Settings">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
         </div>
 
         <!-- Chat Messages Area -->
         <div class="chat-messages" id="chatMessages">
-            <div class="message bot">
+            <div class="message bot" id="initialBotMsg">
                 <img src="assets/robo.png" alt="Avatar" class="msg-avatar">
                 <div class="bubble">
-                    Hello! Welcome to the University of Layyah. How can I help you today?
+                    Hello! 👋<br>
+                    I'm your UOL Assistant.<br>
+                    I can help you with admissions, fees, timetables, scholarships and more.<br><br>
+                    What would you like to know about today?
+                </div>
+            </div>
+
+            <!-- Quick Questions Card -->
+            <div class="quick-questions-card" id="quickQuestionsCard">
+                <h4 class="card-title">Quick Questions</h4>
+                <div class="quick-grid">
+                    <button class="quick-btn" onclick="handleCustomAction('admissions', '')"><i class="fa-solid fa-graduation-cap"></i> Admissions</button>
+                    <button class="quick-btn" onclick="handleCustomAction('fee_structure', '')"><i class="fa-solid fa-file-invoice-dollar"></i> Fee Structure</button>
+                    <button class="quick-btn" onclick="handleCustomAction('timetable', '')"><i class="fa-regular fa-calendar-days"></i> Timetable</button>
+                    <button class="quick-btn" onclick="handleCustomAction('scholarships', '')"><i class="fa-solid fa-trophy"></i> Scholarships</button>
+                    <button class="quick-btn" onclick="handleCustomAction('student_services', '')" style="grid-column: span 2; justify-content:center;"><i class="fa-solid fa-headset"></i> Student Services</button>
                 </div>
             </div>
             
@@ -133,9 +155,138 @@
         </div>
     </section>
 
+    <!-- SETTINGS SCREEN -->
+    <section class="settings-interface hidden" id="settingsScreen">
+        <div class="chat-header">
+            <button class="back-btn" id="closeSettingsBtn" aria-label="Go Back">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="chat-bot-info">
+                <div class="chat-titles">
+                    <h3 style="margin-left: 10px;">Settings</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="settings-content">
+            <div class="profile-card" id="profileCardSettings" style="cursor:pointer;">
+                <div class="profile-avatar"><i class="fa-solid fa-user"></i></div>
+                <div class="profile-info">
+                    <h4 id="profileName">Student</h4>
+                    <p id="profileDetails">Tap to set up profile</p>
+                </div>
+                <i class="fa-solid fa-chevron-right" style="margin-left:auto;color:var(--text-secondary);font-size:12px;"></i>
+            </div>
+            
+            <div class="settings-menu">
+                <div class="menu-item">
+                    <div class="menu-item-left"><i class="fa-solid fa-clock-rotate-left"></i> Chat History</div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+                <div class="menu-item" id="profileMenuItem">
+                    <div class="menu-item-left"><i class="fa-solid fa-user-pen"></i> Edit Profile</div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-left"><i class="fa-solid fa-moon theme-icon" id="themeIcon"></i> 
+                        <div>Theme<br><small id="themeText">Dark Mode</small></div>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="themeToggle" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-left"><i class="fa-solid fa-bell"></i> Notifications</div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-left"><i class="fa-solid fa-circle-info"></i> About University</div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-left"><i class="fa-solid fa-circle-question"></i> Help & Support</div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <button class="logout-btn"><i class="fa-solid fa-right-from-bracket"></i> Logout</button>
+        </div>
+    </section>
+
+
+
+    <!-- PROFILE EDIT SCREEN -->
+    <section class="settings-interface hidden" id="profileEditScreen" style="z-index:25;">
+        <div class="chat-header">
+            <button class="back-btn" id="closeProfileBtn" aria-label="Go Back">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="chat-bot-info">
+                <div class="chat-titles">
+                    <h3 style="margin-left: 10px;">Edit Profile</h3>
+                </div>
+            </div>
+        </div>
+        <div class="settings-content" style="padding:25px 20px; gap:16px;">
+            <div style="text-align:center;margin-bottom:5px;">
+                <div class="profile-avatar" style="width:70px;height:70px;font-size:28px;margin:0 auto 12px;">
+                    <i class="fa-solid fa-user-pen"></i>
+                </div>
+            </div>
+            
+            <div class="onboard-field">
+                <label>User Type</label>
+                <select id="editUserType">
+                    <option value="student">Student</option>
+                    <option value="visitor">Visitor</option>
+                </select>
+            </div>
+            
+            <div id="studentFieldsContainer">
+                <div class="onboard-field" style="margin-bottom:16px;">
+                    <label>Department</label>
+                <select id="editDept">
+                    <option value="">Select Department</option>
+                    <option value="BSCS">BSCS - Computer Science</option>
+                    <option value="BSIT">BSIT - Information Technology</option>
+                    <option value="BBA">BBA - Business Administration</option>
+                    <option value="BS English">BS English</option>
+                    <option value="BS Math">BS Mathematics</option>
+                    <option value="BS Physics">BS Physics</option>
+                    <option value="BS Chemistry">BS Chemistry</option>
+                    <option value="BS Zoology">BS Zoology</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+                <div class="onboard-field">
+                    <label>Semester</label>
+                    <select id="editSem">
+                        <option value="">Select</option>
+                        <option>1</option><option>2</option><option>3</option><option>4</option>
+                        <option>5</option><option>6</option><option>7</option><option>8</option>
+                    </select>
+                </div>
+                <div class="onboard-field">
+                    <label>Section</label>
+                    <select id="editSec">
+                        <option value="">Select</option>
+                        <option>A</option><option>B</option><option>C</option><option>D</option>
+                    </select>
+                </div>
+            </div>
+            <button class="start-chat" id="updateProfileBtn" style="margin-top:10px;animation:none;">
+                <span>Update Profile</span>
+                <i class="fa-solid fa-check"></i>
+            </button>
+        </div>
+    </section>
+
 </div>
 
 <script src="js/script.js"></script>
 
 </body>
 </html>
+
