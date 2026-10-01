@@ -25,6 +25,17 @@ document.addEventListener("DOMContentLoaded", () => {
                 const parts = [profile.dept, profile.sem ? "Sem " + profile.sem : "", profile.sec ? "Sec " + profile.sec : ""].filter(Boolean);
                 profileDetailsEl.textContent = parts.length ? parts.join(" · ") : "Tap to set up profile";
             }
+            if (profile.image) {
+                const mainImg = document.getElementById("mainProfileImg");
+                const mainIcon = document.getElementById("mainProfileIcon");
+                if (mainImg) { mainImg.src = profile.image; mainImg.style.display = 'block'; }
+                if (mainIcon) { mainIcon.style.display = 'none'; }
+                
+                const previewImg = document.getElementById("profileImgPreview");
+                const previewIcon = document.getElementById("profileImgIcon");
+                if (previewImg) { previewImg.src = profile.image; previewImg.style.display = 'block'; }
+                if (previewIcon) { previewIcon.style.display = 'none'; }
+            }
         }
         currentProfile = profile || {};
         return profile;
@@ -406,6 +417,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ==== SETTINGS SCREEN ====
     const openSettingsBtn = document.getElementById("openSettingsBtn");
+    const settingsIcon = document.getElementById("settingsIcon");
     const closeSettingsBtn = document.getElementById("closeSettingsBtn");
     const settingsScreen = document.getElementById("settingsScreen");
     const themeToggle = document.getElementById("themeToggle");
@@ -413,13 +425,34 @@ document.addEventListener("DOMContentLoaded", () => {
     const themeText = document.getElementById("themeText");
     const htmlElement = document.documentElement;
 
-    if (openSettingsBtn && closeSettingsBtn && settingsScreen) {
+    if (openSettingsBtn && settingsScreen) {
         openSettingsBtn.addEventListener("click", () => {
-            chatInterface.classList.add("hidden"); settingsScreen.classList.remove("hidden");
+            if (settingsScreen.classList.contains("hidden")) {
+                chatInterface.classList.add("hidden"); 
+                settingsScreen.classList.remove("hidden");
+                if (settingsIcon) {
+                    settingsIcon.classList.remove("fa-bars");
+                    settingsIcon.classList.add("fa-xmark");
+                }
+            } else {
+                settingsScreen.classList.add("hidden"); 
+                chatInterface.classList.remove("hidden");
+                if (settingsIcon) {
+                    settingsIcon.classList.remove("fa-xmark");
+                    settingsIcon.classList.add("fa-bars");
+                }
+            }
         });
-        closeSettingsBtn.addEventListener("click", () => {
-            settingsScreen.classList.add("hidden"); chatInterface.classList.remove("hidden");
-        });
+        
+        if (closeSettingsBtn) {
+            closeSettingsBtn.addEventListener("click", () => {
+                settingsScreen.classList.add("hidden"); chatInterface.classList.remove("hidden");
+                if (settingsIcon) {
+                    settingsIcon.classList.remove("fa-xmark");
+                    settingsIcon.classList.add("fa-bars");
+                }
+            });
+        }
     }
 
     // ==== THEME SYSTEM ====
@@ -488,13 +521,45 @@ document.addEventListener("DOMContentLoaded", () => {
     if (profileMenuItem) profileMenuItem.addEventListener("click", openProfileEdit);
     if (closeProfileBtn) closeProfileBtn.addEventListener("click", () => { profileEditScreen.classList.add("hidden"); settingsScreen.classList.remove("hidden"); });
     
+    let pendingImageUpdate = null;
+    const profileImgContainer = document.getElementById("profileImgContainer");
+    const profileImgUpload = document.getElementById("profileImgUpload");
+    if (profileImgContainer && profileImgUpload) {
+        profileImgContainer.addEventListener("click", () => {
+            profileImgUpload.click();
+        });
+        profileImgUpload.addEventListener("change", (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    pendingImageUpdate = event.target.result;
+                    const previewImg = document.getElementById("profileImgPreview");
+                    const previewIcon = document.getElementById("profileImgIcon");
+                    if (previewImg) { previewImg.src = pendingImageUpdate; previewImg.style.display = 'block'; }
+                    if (previewIcon) { previewIcon.style.display = 'none'; }
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    }
+
     if (updateProfileBtn) {
         updateProfileBtn.addEventListener("click", () => {
             const type = editUserType ? editUserType.value : 'student';
             const dept = document.getElementById("editDept").value;
             const sem = document.getElementById("editSem").value;
             const sec = document.getElementById("editSec").value;
-            saveProfile({type, dept: type === 'visitor' ? '' : dept, sem: type === 'visitor' ? '' : sem, sec: type === 'visitor' ? '' : sec});
+            
+            const newProfile = {
+                type, 
+                dept: type === 'visitor' ? '' : dept, 
+                sem: type === 'visitor' ? '' : sem, 
+                sec: type === 'visitor' ? '' : sec,
+                image: pendingImageUpdate || currentProfile.image
+            };
+            
+            saveProfile(newProfile);
             profileEditScreen.classList.add("hidden");
             settingsScreen.classList.remove("hidden");
         });

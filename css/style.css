@@ -193,10 +193,11 @@ body{background:var(--bg-color);font-family:"Poppins",sans-serif;color:var(--tex
   padding: calc(max(22px, env(safe-area-inset-top)) + 15px) 20px 15px;
   border-bottom: 1px solid var(--border-color);
   background: var(--header-bg);
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .chat-header-left { display: flex; align-items: center; gap: 15px; }
-.settings-btn { background: none; border: none; color: var(--text-primary); font-size: 20px; cursor: pointer; padding: 10px; }
+.settings-btn { background: none; border: none; color: var(--text-primary); font-size: 20px; cursor: pointer; padding: 10px; transition: transform 0.3s; }
+.settings-btn i { transition: transform 0.3s; }
 .back-btn {
   background: none; border: none; color: var(--text-primary); font-size: 20px;
   cursor: pointer; padding: 10px; transition: transform 0.2s ease;
@@ -220,7 +221,7 @@ body{background:var(--bg-color);font-family:"Poppins",sans-serif;color:var(--tex
   scroll-behavior: smooth;
 }
 
-.message { display: flex; align-items: flex-end; gap: 10px; max-width: 85%; }
+.message { display: flex; align-items: flex-end; gap: 10px; max-width: 95%; }
 .message.bot { align-self: flex-start; }
 .message.user { align-self: flex-end; flex-direction: row-reverse; }
 
@@ -234,11 +235,13 @@ body{background:var(--bg-color);font-family:"Poppins",sans-serif;color:var(--tex
 .message.bot .bubble {
   background: var(--bot-bubble); color: var(--bot-bubble-text);
   border-bottom-left-radius: 4px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  max-width: 100%; word-break: break-word;
 }
 .message.user .bubble {
   background: linear-gradient(135deg, #ae40ff 0%, #2798ff 100%); color: white;
   border-bottom-right-radius: 4px;
   box-shadow: 0 5px 15px rgba(174, 64, 255, 0.3);
+  max-width: 100%; word-break: break-word;
 }
 
 /* Typing Indicator */
@@ -345,8 +348,12 @@ input:checked + .slider:before { transform: translateX(20px); }
 .chip-btn.selected { background: linear-gradient(135deg, #ae40ff, #2798ff); color: white; border: none; }
 
 /* Timetable */
-.timetable-container { padding: 10px; }
-.timetable { width: 100%; border-collapse: collapse; font-size: 12px; }
+.timetable-container { 
+  padding: 10px; width: 100%; overflow-x: auto; white-space: nowrap;
+  -webkit-overflow-scrolling: touch; border-radius: 8px; border: 1px solid var(--border-color);
+  margin-top: 10px; box-sizing: border-box;
+}
+.timetable { width: 100%; min-width: 350px; border-collapse: collapse; font-size: 12px; }
 .timetable th { text-align: left; padding: 8px; color: var(--text-secondary); font-weight: 500; border-bottom: 1px solid var(--border-color); }
 .timetable td { padding: 8px; color: var(--text-primary); border-bottom: 1px solid var(--border-color); }
 .timetable tr:last-child td { border-bottom: none; }

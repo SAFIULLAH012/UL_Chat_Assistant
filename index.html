@@ -97,9 +97,11 @@
     <section class="chat-interface hidden" id="chatInterface">
         <!-- Chat Header -->
         <div class="chat-header">
-            <button class="back-btn" id="backBtn" aria-label="Go Back">
-                <i class="fa-solid fa-chevron-left"></i>
-            </button>
+            <div class="chat-header-left">
+                <button class="settings-btn" id="openSettingsBtn" aria-label="Settings">
+                    <i class="fa-solid fa-bars" id="settingsIcon"></i>
+                </button>
+            </div>
             <div class="chat-bot-info">
                 <img src="assets/robo.png" alt="Bot Avatar" class="chat-avatar" id="headerRobot">
                 <div class="chat-titles">
@@ -107,9 +109,6 @@
                     <span class="online-status">Online</span>
                 </div>
             </div>
-            <button class="settings-btn" id="openSettingsBtn" aria-label="Settings">
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-            </button>
         </div>
 
         <!-- Chat Messages Area -->
@@ -158,8 +157,8 @@
     <!-- SETTINGS SCREEN -->
     <section class="settings-interface hidden" id="settingsScreen">
         <div class="chat-header">
-            <button class="back-btn" id="closeSettingsBtn" aria-label="Go Back">
-                <i class="fa-solid fa-chevron-left"></i>
+            <button class="settings-btn" id="closeSettingsBtn" aria-label="Close Settings">
+                <i class="fa-solid fa-xmark" style="font-size: 24px;"></i>
             </button>
             <div class="chat-bot-info">
                 <div class="chat-titles">
@@ -170,7 +169,10 @@
         
         <div class="settings-content">
             <div class="profile-card" id="profileCardSettings" style="cursor:pointer;">
-                <div class="profile-avatar"><i class="fa-solid fa-user"></i></div>
+                <div class="profile-avatar" style="overflow:hidden;">
+                    <img id="mainProfileImg" src="" style="width:100%;height:100%;object-fit:cover;display:none;">
+                    <i class="fa-solid fa-user" id="mainProfileIcon"></i>
+                </div>
                 <div class="profile-info">
                     <h4 id="profileName">Student</h4>
                     <p id="profileDetails">Tap to set up profile</p>
@@ -229,10 +231,13 @@
             </div>
         </div>
         <div class="settings-content" style="padding:25px 20px; gap:16px;">
-            <div style="text-align:center;margin-bottom:5px;">
-                <div class="profile-avatar" style="width:70px;height:70px;font-size:28px;margin:0 auto 12px;">
-                    <i class="fa-solid fa-user-pen"></i>
+            <div style="text-align:center;margin-bottom:5px;position:relative;">
+                <div class="profile-avatar" style="width:70px;height:70px;font-size:28px;margin:0 auto 12px;cursor:pointer;position:relative;overflow:hidden;" id="profileImgContainer">
+                    <img id="profileImgPreview" src="" style="width:100%;height:100%;object-fit:cover;display:none;">
+                    <i class="fa-solid fa-user-pen" id="profileImgIcon"></i>
                 </div>
+                <input type="file" id="profileImgUpload" accept="image/*" style="display:none;">
+                <small style="color:var(--text-secondary);display:block;margin-top:-5px;margin-bottom:15px;">Tap to change photo</small>
             </div>
             
             <div class="onboard-field">
