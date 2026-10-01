@@ -1,12 +1,12 @@
 self.addEventListener("install", e => {
   e.waitUntil(
-    caches.open("uol-chat-pwa").then(cache => {
+    caches.open("uol-chat-pwa-v2").then(cache => {
       return cache.addAll([
         "./",
         "./index.html",
         "./css/style.css",
         "./js/script.js",
-        "./assets/uni_logo.png",
+        "./assets/icon.jpeg",
         "./assets/uni_bg.png",
         "./assets/robo.png"
       ]);
