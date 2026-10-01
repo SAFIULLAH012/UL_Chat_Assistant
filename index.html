@@ -11,6 +11,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <link rel="stylesheet" href="css/style.css">
 
+<!-- PWA / App Icon settings -->
+<link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#050625">
+<link rel="apple-touch-icon" href="assets/uni_logo.png">
+
 </head>
 
 <body>
@@ -291,7 +296,13 @@
 </div>
 
 <script src="js/script.js"></script>
-
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js')
+      .then((reg) => console.log('Service Worker registered', reg))
+      .catch((err) => console.log('Service Worker not registered', err));
+  }
+</script>
 </body>
 </html>
 
