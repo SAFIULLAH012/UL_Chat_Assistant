@@ -415,6 +415,21 @@ document.addEventListener("DOMContentLoaded", () => {
     sendBtn.addEventListener("click", () => handleUserMessage(chatInput.value));
     chatInput.addEventListener("keypress", (e) => { if (e.key === "Enter") handleUserMessage(chatInput.value); });
 
+    // ==== MOBILE KEYBOARD FIX ====
+    // When keyboard opens on mobile, scroll chat to bottom so input stays visible
+    chatInput.addEventListener("focus", () => {
+        setTimeout(() => {
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }, 350);
+    });
+
+    // Use visualViewport API for better keyboard handling on modern mobile browsers
+    if (window.visualViewport) {
+        window.visualViewport.addEventListener("resize", () => {
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        });
+    }
+
     // ==== SETTINGS SCREEN ====
     const openSettingsBtn = document.getElementById("openSettingsBtn");
     const settingsIcon = document.getElementById("settingsIcon");
