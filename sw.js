@@ -1,6 +1,9 @@
+const CACHE_NAME = "uol-chat-pwa-v2";
+
 self.addEventListener("install", e => {
+  self.skipWaiting();
   e.waitUntil(
-    caches.open("uol-chat-pwa-v2").then(cache => {
+    caches.open(CACHE_NAME).then(cache => {
       return cache.addAll([
         "./",
         "./index.html",
@@ -11,6 +14,20 @@ self.addEventListener("install", e => {
         "./assets/robo.png"
       ]);
     })
+  );
+});
+
+self.addEventListener("activate", e => {
+  e.waitUntil(
+    caches.keys().then(keyList => {
+      return Promise.all(
+        keyList.map(key => {
+          if (key !== CACHE_NAME) {
+            return caches.delete(key);
+          }
+        })
+      );
+    }).then(() => self.clients.claim())
   );
 });
 
