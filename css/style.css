@@ -274,6 +274,7 @@ body{background:var(--bg-color);font-family:"Poppins",sans-serif;color:var(--tex
   cursor: pointer; display: flex; align-items: center; justify-content: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+.send-btn i { margin-right: -3px; }
 .send-btn:hover { transform: scale(1.05); box-shadow: 0 5px 15px rgba(174, 64, 255, 0.4); }
 .send-btn:active { transform: scale(0.95); }
 
