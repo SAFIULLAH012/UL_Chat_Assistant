@@ -1,0 +1,2029 @@
+{
+ "bs_computer_science": {
+  "program_id": "bs_computer_science",
+  "name": "BS Computer Science",
+  "short_name": "BSCS",
+  "department": "Department of Computer Science",
+  "faculty": "Faculty of Computing & Engineering",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Computing Group",
+   "morning": {
+    "semesters": [
+     44300,
+     41500,
+     44800,
+     48430,
+     52423,
+     56815,
+     61647,
+     66962
+    ],
+    "total": 416877
+   },
+   "afternoon": {
+    "semesters": [
+     52300,
+     50300,
+     54480,
+     59078,
+     64136,
+     69699,
+     75819,
+     82551
+    ],
+    "total": 508363
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "bs_information_technology": {
+  "program_id": "bs_information_technology",
+  "name": "BS Information Technology",
+  "short_name": "BSIT",
+  "department": "Department of Information Technology",
+  "faculty": "Faculty of Computing & Engineering",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Computing Group",
+   "morning": {
+    "semesters": [
+     44300,
+     41500,
+     44800,
+     48430,
+     52423,
+     56815,
+     61647,
+     66962
+    ],
+    "total": 416877
+   },
+   "afternoon": {
+    "semesters": [
+     52300,
+     50300,
+     54480,
+     59078,
+     64136,
+     69699,
+     75819,
+     82551
+    ],
+    "total": 508363
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "bs_artificial_intelligence": {
+  "program_id": "bs_artificial_intelligence",
+  "name": "BS Artificial Intelligence",
+  "short_name": "BSAI",
+  "department": "Department of Artificial Intelligence",
+  "faculty": "Faculty of Computing & Engineering",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Computing Group",
+   "morning": {
+    "semesters": [
+     44300,
+     41500,
+     44800,
+     48430,
+     52423,
+     56815,
+     61647,
+     66962
+    ],
+    "total": 416877
+   },
+   "afternoon": {
+    "semesters": [
+     52300,
+     50300,
+     54480,
+     59078,
+     64136,
+     69699,
+     75819,
+     82551
+    ],
+    "total": 508363
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "bs_data_science": {
+  "program_id": "bs_data_science",
+  "name": "BS Data Science",
+  "short_name": "BSDS",
+  "department": "Department of Data Science",
+  "faculty": "Faculty of Computing & Engineering",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Computing Group",
+   "morning": {
+    "semesters": [
+     44300,
+     41500,
+     44800,
+     48430,
+     52423,
+     56815,
+     61647,
+     66962
+    ],
+    "total": 416877
+   },
+   "afternoon": {
+    "semesters": [
+     52300,
+     50300,
+     54480,
+     59078,
+     64136,
+     69699,
+     75819,
+     82551
+    ],
+    "total": 508363
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "bs_computer_engineering": {
+  "program_id": "bs_computer_engineering",
+  "name": "BS Computer Engineering",
+  "short_name": "BSCE",
+  "department": "Department of Computer Engineering",
+  "faculty": "Faculty of Computing & Engineering",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "At least 60% marks in F.Sc./A-Level or relevant DAE + Must qualify UET Lahore Entrance Test.",
+  "merit_formula": "10% Matric/SSC + 50% F.Sc. or Equivalent + 40% Entry Test",
+  "verified": false,
+  "fee_status": "needs_confirmation",
+  "note": "Eligibility (60% + UET entry test) conflicts with the generic 50% / 30-70 merit rule in another section; confirm.",
+  "fee": {
+   "label": "BS Computer Engineering (special criteria)",
+   "morning": {
+    "semesters": [
+     62300,
+     61300,
+     66580,
+     72388,
+     78777,
+     85804,
+     93535,
+     102038
+    ],
+    "total": 622722
+   },
+   "afternoon": null
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "bs_dairy_technology": {
+  "program_id": "bs_dairy_technology",
+  "name": "BS Dairy Technology",
+  "short_name": "",
+  "department": "Department of Biosciences / Dairy Technology",
+  "faculty": "Faculty of Veterinary and Animal Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "bs_poultry_science": {
+  "program_id": "bs_poultry_science",
+  "name": "BS Poultry Science",
+  "short_name": "",
+  "department": "Department of Livestock and Poultry Sciences",
+  "faculty": "Faculty of Veterinary and Animal Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "bs_microbiology": {
+  "program_id": "bs_microbiology",
+  "name": "BS Microbiology",
+  "short_name": "",
+  "department": "Department of Microbiology",
+  "faculty": "Faculty of Veterinary and Animal Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "post_adp_microbiology": {
+  "program_id": "post_adp_microbiology",
+  "name": "Post-ADP Microbiology",
+  "short_name": "",
+  "department": "Department of Microbiology",
+  "faculty": "Faculty of Veterinary and Animal Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Natural & Applied Sciences",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444
+    ],
+    "total": 151184
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423
+    ],
+    "total": 192953
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "bs_biotechnology": {
+  "program_id": "bs_biotechnology",
+  "name": "BS Biotechnology",
+  "short_name": "",
+  "department": "Department of Biotechnology",
+  "faculty": "Faculty of Veterinary and Animal Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "post_adp_biotechnology": {
+  "program_id": "post_adp_biotechnology",
+  "name": "Post-ADP Biotechnology",
+  "short_name": "",
+  "department": "Department of Biotechnology",
+  "faculty": "Faculty of Veterinary and Animal Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Natural & Applied Sciences",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444
+    ],
+    "total": 151184
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423
+    ],
+    "total": 192953
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "livestock_assistant_diploma_lad": {
+  "program_id": "livestock_assistant_diploma_lad",
+  "name": "Livestock Assistant Diploma (LAD)",
+  "short_name": "LAD",
+  "department": "Department of Clinical Sciences / Pathobiology",
+  "faculty": "Faculty of Veterinary and Animal Sciences",
+  "duration": "2 Years (4 Semesters)",
+  "type": "Diploma",
+  "eligibility": "Matriculation (Science Group) with minimum 45% marks.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Livestock Assistant Diploma (LAD)",
+   "morning": {
+    "semesters": [
+     28300,
+     23900,
+     25440,
+     27134
+    ],
+    "total": 104774
+   },
+   "afternoon": {
+    "semesters": [
+     32300,
+     28300,
+     30280,
+     32458
+    ],
+    "total": 123338
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "b_sc_hons_agriculture": {
+  "program_id": "b_sc_hons_agriculture",
+  "name": "B.Sc. (Hons) Agriculture",
+  "short_name": "",
+  "department": "Department of Plant Production & Agronomy",
+  "faculty": "Faculty of Agricultural Sciences and Technology",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "bs_food_science_technology": {
+  "program_id": "bs_food_science_technology",
+  "name": "BS Food Science & Technology",
+  "short_name": "",
+  "department": "Department of Entomology & Food Science",
+  "faculty": "Faculty of Agricultural Sciences and Technology",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "bs_horticulture_plant_pathology": {
+  "program_id": "bs_horticulture_plant_pathology",
+  "name": "BS Horticulture & Plant Pathology",
+  "short_name": "",
+  "department": "Department of Horticulture & Plant Pathology",
+  "faculty": "Faculty of Agricultural Sciences and Technology",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "Main Campus",
+  "campus_address": "Hafizabad Road, Layyah"
+ },
+ "bs_applied_psychology": {
+  "program_id": "bs_applied_psychology",
+  "name": "BS Applied Psychology",
+  "short_name": "",
+  "department": "Department of Behavioral Sciences",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Arts, Humanities & Social Sciences Group",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120,
+     37782,
+     40710,
+     43931,
+     47474
+    ],
+    "total": 302517
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768,
+     49495,
+     53594,
+     58104,
+     63064
+    ],
+    "total": 394005
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_psychology": {
+  "program_id": "post_adp_psychology",
+  "name": "Post-ADP Psychology",
+  "short_name": "",
+  "department": "Department of Behavioral Sciences",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Arts, Humanities & Social Sciences",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120
+    ],
+    "total": 132620
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768
+    ],
+    "total": 169748
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_sports_science": {
+  "program_id": "bs_sports_science",
+  "name": "BS Sports Science",
+  "short_name": "",
+  "department": "Department of Behavioral Sciences",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Arts, Humanities & Social Sciences Group",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120,
+     37782,
+     40710,
+     43931,
+     47474
+    ],
+    "total": 302517
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768,
+     49495,
+     53594,
+     58104,
+     63064
+    ],
+    "total": 394005
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_sports_science": {
+  "program_id": "post_adp_sports_science",
+  "name": "Post-ADP Sports Science",
+  "short_name": "",
+  "department": "Department of Behavioral Sciences",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Arts, Humanities & Social Sciences",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120
+    ],
+    "total": 132620
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768
+    ],
+    "total": 169748
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_english": {
+  "program_id": "bs_english",
+  "name": "BS English",
+  "short_name": "",
+  "department": "Department of Islamic Studies and Languages",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Arts, Humanities & Social Sciences Group",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120,
+     37782,
+     40710,
+     43931,
+     47474
+    ],
+    "total": 302517
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768,
+     49495,
+     53594,
+     58104,
+     63064
+    ],
+    "total": 394005
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_english": {
+  "program_id": "post_adp_english",
+  "name": "Post-ADP English",
+  "short_name": "",
+  "department": "Department of Islamic Studies and Languages",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Arts, Humanities & Social Sciences",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120
+    ],
+    "total": 132620
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768
+    ],
+    "total": 169748
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_islamic_studies": {
+  "program_id": "bs_islamic_studies",
+  "name": "BS Islamic Studies",
+  "short_name": "",
+  "department": "Department of Islamic Studies and Languages",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Arts, Humanities & Social Sciences Group",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120,
+     37782,
+     40710,
+     43931,
+     47474
+    ],
+    "total": 302517
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768,
+     49495,
+     53594,
+     58104,
+     63064
+    ],
+    "total": 394005
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_islamic_studies": {
+  "program_id": "post_adp_islamic_studies",
+  "name": "Post-ADP Islamic Studies",
+  "short_name": "",
+  "department": "Department of Islamic Studies and Languages",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Arts, Humanities & Social Sciences",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120
+    ],
+    "total": 132620
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768
+    ],
+    "total": 169748
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_urdu": {
+  "program_id": "bs_urdu",
+  "name": "BS Urdu",
+  "short_name": "",
+  "department": "Department of Islamic Studies and Languages",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Arts, Humanities & Social Sciences Group",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120,
+     37782,
+     40710,
+     43931,
+     47474
+    ],
+    "total": 302517
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768,
+     49495,
+     53594,
+     58104,
+     63064
+    ],
+    "total": 394005
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_urdu": {
+  "program_id": "post_adp_urdu",
+  "name": "Post-ADP Urdu",
+  "short_name": "",
+  "department": "Department of Islamic Studies and Languages",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Arts, Humanities & Social Sciences",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120
+    ],
+    "total": 132620
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768
+    ],
+    "total": 169748
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bba_general": {
+  "program_id": "bba_general",
+  "name": "BBA (General)",
+  "short_name": "BBA",
+  "department": "Department of Economics & Business Administration",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": null,
+  "merit_formula": null,
+  "verified": false,
+  "fee_status": "conflict",
+  "note": "Source conflict: one section puts BBA in the Natural/Applied fee group (50% eligibility), another in the Arts/Humanities group (45%). Fee and eligibility withheld until confirmed.",
+  "fee": null,
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bba_it": {
+  "program_id": "bba_it",
+  "name": "BBA-IT",
+  "short_name": "BBA-IT",
+  "department": "Department of Economics & Business Administration",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": null,
+  "merit_formula": null,
+  "verified": false,
+  "fee_status": "conflict",
+  "note": "Source conflict: one section puts BBA in the Natural/Applied fee group (50% eligibility), another in the Arts/Humanities group (45%). Fee and eligibility withheld until confirmed.",
+  "fee": null,
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_bba": {
+  "program_id": "post_adp_bba",
+  "name": "Post-ADP BBA",
+  "short_name": "",
+  "department": "Department of Economics & Business Administration",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": false,
+  "fee_status": "conflict",
+  "note": "Post-ADP BBA fee group not specified (BBA group conflict). Fee withheld.",
+  "fee": null,
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_economics": {
+  "program_id": "bs_economics",
+  "name": "BS Economics",
+  "short_name": "",
+  "department": "Department of Economics & Business Administration",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Arts, Humanities & Social Sciences Group",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120,
+     37782,
+     40710,
+     43931,
+     47474
+    ],
+    "total": 302517
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768,
+     49495,
+     53594,
+     58104,
+     63064
+    ],
+    "total": 394005
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_economics": {
+  "program_id": "post_adp_economics",
+  "name": "Post-ADP Economics",
+  "short_name": "",
+  "department": "Department of Economics & Business Administration",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Arts, Humanities & Social Sciences",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120
+    ],
+    "total": 132620
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768
+    ],
+    "total": 169748
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_public_administration_governance": {
+  "program_id": "bs_public_administration_governance",
+  "name": "BS Public Administration & Governance",
+  "short_name": "",
+  "department": "Department of Economics & Business Administration",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Arts, Humanities & Social Sciences Group",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120,
+     37782,
+     40710,
+     43931,
+     47474
+    ],
+    "total": 302517
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768,
+     49495,
+     53594,
+     58104,
+     63064
+    ],
+    "total": 394005
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_public_administration": {
+  "program_id": "post_adp_public_administration",
+  "name": "Post-ADP Public Administration",
+  "short_name": "",
+  "department": "Department of Economics & Business Administration",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Arts, Humanities & Social Sciences",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120
+    ],
+    "total": 132620
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768
+    ],
+    "total": 169748
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_international_relations": {
+  "program_id": "bs_international_relations",
+  "name": "BS International Relations",
+  "short_name": "BS IR",
+  "department": "Department of Sociology & Social Sciences",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Arts, Humanities & Social Sciences Group",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120,
+     37782,
+     40710,
+     43931,
+     47474
+    ],
+    "total": 302517
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768,
+     49495,
+     53594,
+     58104,
+     63064
+    ],
+    "total": 394005
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_international_relations": {
+  "program_id": "post_adp_international_relations",
+  "name": "Post-ADP International Relations",
+  "short_name": "",
+  "department": "Department of Sociology & Social Sciences",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Arts, Humanities & Social Sciences",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120
+    ],
+    "total": 132620
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768
+    ],
+    "total": 169748
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_sociology": {
+  "program_id": "bs_sociology",
+  "name": "BS Sociology",
+  "short_name": "",
+  "department": "Department of Sociology & Social Sciences",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Arts, Humanities & Social Sciences Group",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120,
+     37782,
+     40710,
+     43931,
+     47474
+    ],
+    "total": 302517
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768,
+     49495,
+     53594,
+     58104,
+     63064
+    ],
+    "total": 394005
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_sociology": {
+  "program_id": "post_adp_sociology",
+  "name": "Post-ADP Sociology",
+  "short_name": "",
+  "department": "Department of Sociology & Social Sciences",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Arts, Humanities & Social Sciences",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120
+    ],
+    "total": 132620
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768
+    ],
+    "total": 169748
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_education": {
+  "program_id": "bs_education",
+  "name": "BS Education",
+  "short_name": "",
+  "department": "Department of Education",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Arts, Humanities & Social Sciences Group",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120,
+     37782,
+     40710,
+     43931,
+     47474
+    ],
+    "total": 302517
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768,
+     49495,
+     53594,
+     58104,
+     63064
+    ],
+    "total": 394005
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "b_ed_hons": {
+  "program_id": "b_ed_hons",
+  "name": "B.Ed (Hons)",
+  "short_name": "",
+  "department": "Department of Education",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Arts, Humanities & Social Sciences Group",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120,
+     37782,
+     40710,
+     43931,
+     47474
+    ],
+    "total": 302517
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768,
+     49495,
+     53594,
+     58104,
+     63064
+    ],
+    "total": 394005
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_education": {
+  "program_id": "post_adp_education",
+  "name": "Post-ADP Education",
+  "short_name": "",
+  "department": "Department of Education",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Arts, Humanities & Social Sciences",
+   "morning": {
+    "semesters": [
+     34300,
+     30500,
+     32700,
+     35120
+    ],
+    "total": 132620
+   },
+   "afternoon": {
+    "semesters": [
+     42300,
+     39300,
+     42380,
+     45768
+    ],
+    "total": 169748
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "b_ed_1_5_years": {
+  "program_id": "b_ed_1_5_years",
+  "name": "B.Ed (1.5 Years)",
+  "short_name": "",
+  "department": "Department of Education",
+  "faculty": "Faculty of Management, Humanities & Social Sciences",
+  "duration": "1.5 Years (3-4 Semesters)",
+  "type": "Professional Degree",
+  "eligibility": "BS (Hons)/Master or Equivalent with at least 45% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": false,
+  "fee_status": "suspicious",
+  "note": "Source lists the full 8-semester Arts total (302,517 morning) for a 1.5-year programme; probably wrong. Fee withheld.",
+  "fee": null,
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_chemistry": {
+  "program_id": "bs_chemistry",
+  "name": "BS Chemistry",
+  "short_name": "",
+  "department": "Department of Chemistry",
+  "faculty": "Faculty of Natural Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_chemistry": {
+  "program_id": "post_adp_chemistry",
+  "name": "Post-ADP Chemistry",
+  "short_name": "",
+  "department": "Department of Chemistry",
+  "faculty": "Faculty of Natural Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Natural & Applied Sciences",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444
+    ],
+    "total": 151184
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423
+    ],
+    "total": 192953
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_environmental_sciences": {
+  "program_id": "bs_environmental_sciences",
+  "name": "BS Environmental Sciences",
+  "short_name": "",
+  "department": "Department of Environmental Sciences",
+  "faculty": "Faculty of Natural Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_environmental_sciences": {
+  "program_id": "post_adp_environmental_sciences",
+  "name": "Post-ADP Environmental Sciences",
+  "short_name": "",
+  "department": "Department of Environmental Sciences",
+  "faculty": "Faculty of Natural Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Natural & Applied Sciences",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444
+    ],
+    "total": 151184
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423
+    ],
+    "total": 192953
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_mathematics": {
+  "program_id": "bs_mathematics",
+  "name": "BS Mathematics",
+  "short_name": "",
+  "department": "Department of Mathematics",
+  "faculty": "Faculty of Natural Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_mathematics": {
+  "program_id": "post_adp_mathematics",
+  "name": "Post-ADP Mathematics",
+  "short_name": "",
+  "department": "Department of Mathematics",
+  "faculty": "Faculty of Natural Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Natural & Applied Sciences",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444
+    ],
+    "total": 151184
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423
+    ],
+    "total": 192953
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_physics": {
+  "program_id": "bs_physics",
+  "name": "BS Physics",
+  "short_name": "",
+  "department": "Department of Physics",
+  "faculty": "Faculty of Natural Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_zoology": {
+  "program_id": "bs_zoology",
+  "name": "BS Zoology",
+  "short_name": "",
+  "department": "Department of Zoology",
+  "faculty": "Faculty of Natural Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_zoology": {
+  "program_id": "post_adp_zoology",
+  "name": "Post-ADP Zoology",
+  "short_name": "",
+  "department": "Department of Zoology",
+  "faculty": "Faculty of Natural Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Natural & Applied Sciences",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444
+    ],
+    "total": 151184
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423
+    ],
+    "total": 192953
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "bs_botany": {
+  "program_id": "bs_botany",
+  "name": "BS Botany",
+  "short_name": "",
+  "department": "Department of Botany",
+  "faculty": "Faculty of Natural Sciences",
+  "duration": "4 Years (8 Semesters)",
+  "type": "Undergraduate",
+  "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+  "merit_formula": "30% Matric + 70% Intermediate",
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Natural, Applied & Agricultural Sciences Group",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444,
+     43638,
+     47152,
+     51017,
+     55269
+    ],
+    "total": 348260
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423,
+     56815,
+     64647,
+     66962,
+     72808
+    ],
+    "total": 454185
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ },
+ "post_adp_botany": {
+  "program_id": "post_adp_botany",
+  "name": "Post-ADP Botany",
+  "short_name": "",
+  "department": "Department of Botany",
+  "faculty": "Faculty of Natural Sciences",
+  "duration": "2 Years (4 Semesters, 5th to 8th)",
+  "type": "Post-ADP",
+  "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+  "merit_formula": null,
+  "verified": true,
+  "fee_status": "confirmed",
+  "note": "",
+  "fee": {
+   "label": "Post-ADP Natural & Applied Sciences",
+   "morning": {
+    "semesters": [
+     38300,
+     34900,
+     37540,
+     40444
+    ],
+    "total": 151184
+   },
+   "afternoon": {
+    "semesters": [
+     47300,
+     44800,
+     48430,
+     52423
+    ],
+    "total": 192953
+   }
+  },
+  "campus": "City Campus",
+  "campus_address": "Katchehry Road, Layyah City"
+ }
+}

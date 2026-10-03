@@ -1,0 +1,235 @@
+{
+ "note": "Use as labelled examples for the MiniLM intent classifier (embed each example, nearest-centroid or cosine kNN). Roman Urdu phrases were drafted by the assistant - review/extend with real student queries.",
+ "intents": [
+  {
+   "intent": "fee",
+   "route": "chroma:type=program|fee",
+   "required_entities": [
+    "program"
+   ],
+   "optional_entities": [
+    "shift"
+   ],
+   "examples": [
+    "what is the fee of BSCS",
+    "bscs ki fees kitni hai",
+    "fee structure batao",
+    "semester fee kitni hai",
+    "bba ki fees",
+    "morning shift ki total fee",
+    "degree ka kharcha kitna hai"
+   ]
+  },
+  {
+   "intent": "eligibility",
+   "route": "chroma:type=program|info(category=admission)",
+   "required_entities": [
+    "program"
+   ],
+   "optional_entities": [],
+   "examples": [
+    "eligibility for bs physics",
+    "admission ke liye kitne marks chahiye",
+    "merit kaise banta hai",
+    "fsc mein kitne percent chahiye",
+    "post adp ke liye kya chahiye",
+    "minimum marks kya hain",
+    "bscs ke liye eligibility kya hai",
+    "iski eligibility kya hai",
+    "is degree ki eligibility kya hai",
+    "eligibility criteria kya hai",
+    "kya eligibility honi chahiye"
+   ]
+  },
+  {
+   "intent": "admission_process",
+   "route": "chroma:id=admission_process",
+   "required_entities": [],
+   "optional_entities": [],
+   "examples": [
+    "how to apply for admission",
+    "admission kaise len",
+    "online form kahan bharna hai",
+    "admission portal kya hai",
+    "apply karne ke steps",
+    "challan kahan jama hoga",
+    "admission form kaise bharna hai",
+    "admission process ke steps batao"
+   ]
+  },
+  {
+   "intent": "programs_offered",
+   "route": "chroma:type=info(category=academics)",
+   "required_entities": [],
+   "optional_entities": [
+    "department"
+   ],
+   "examples": [
+    "which degrees do you offer",
+    "cs department mein kaun si degrees hain",
+    "kaun kaun se departments hain",
+    "engineering ki degree hai kya",
+    "agriculture parha sakte hain",
+    "list of programs"
+   ]
+  },
+  {
+   "intent": "timetable",
+   "route": "sql:timetable",
+   "required_entities": [
+    "program",
+    "semester",
+    "section"
+   ],
+   "optional_entities": [
+    "teacher",
+    "course",
+    "day"
+   ],
+   "examples": [
+    "mera timetable batao",
+    "sir ali ki class kab hai",
+    "aaj meri kaunsi classes hain",
+    "bscs 5th semester section A ka timetable",
+    "kal ka schedule",
+    "database ki class kis room mein hai"
+   ]
+  },
+  {
+   "intent": "bus_schedule",
+   "route": "sql:bus (time-based)",
+   "required_entities": [],
+   "optional_entities": [
+    "bus_stop",
+    "campus",
+    "time"
+   ],
+   "examples": [
+    "next bus kab hai",
+    "bus kitne baje aati hai",
+    "sugar mills moor se bus kab jati hai",
+    "city campus se main campus bus",
+    "shaam ki bus ka time",
+    "bus timing batao"
+   ]
+  },
+  {
+   "intent": "bus_route",
+   "route": "chroma:type=bus",
+   "required_entities": [],
+   "optional_entities": [
+    "bus_stop"
+   ],
+   "examples": [
+    "route 1 ke stops kaun se hain",
+    "bus kahan kahan se guzarti hai",
+    "khan di hatti par bus aati hai",
+    "bus ka rasta batao",
+    "which stops on route 2",
+    "6 number chungi se bus milti hai"
+   ]
+  },
+  {
+   "intent": "contact",
+   "route": "chroma:type=contact",
+   "required_entities": [],
+   "optional_entities": [
+    "office"
+   ],
+   "examples": [
+    "library ka number",
+    "transport office ka phone",
+    "university ka email",
+    "contact number do",
+    "medical center kahan hai",
+    "emergency helpline number"
+   ]
+  },
+  {
+   "intent": "office_info",
+   "route": "chroma:type=info",
+   "required_entities": [],
+   "optional_entities": [
+    "office"
+   ],
+   "examples": [
+    "library mein kya facilities hain",
+    "library kab khulti hai",
+    "medical center ki services",
+    "scholarship kaise milti hai",
+    "qec kya karta hai",
+    "faculty hostel booking"
+   ]
+  },
+  {
+   "intent": "hostel",
+   "route": "chroma:category=hostel|faq",
+   "required_entities": [],
+   "optional_entities": [],
+   "examples": [
+    "hostel ki fees kitni hai",
+    "students ka hostel hai?",
+    "girls hostel",
+    "hostel seat kaise milti hai",
+    "hostel fee kitni hai",
+    "hostel available hai"
+   ]
+  },
+  {
+   "intent": "rules_policies",
+   "route": "chroma:type=faq",
+   "required_entities": [],
+   "optional_entities": [],
+   "examples": [
+    "attendance policy kya hai",
+    "kitni attendance zaroori hai",
+    "passing marks kitne hain",
+    "exams kab hote hain",
+    "campus mein kya allowed nahi",
+    "id card zaroori hai?"
+   ]
+  },
+  {
+   "intent": "leadership",
+   "route": "chroma:type=person",
+   "required_entities": [],
+   "optional_entities": [],
+   "examples": [
+    "vc kaun hai",
+    "registrar ka naam",
+    "controller of examinations kaun hai",
+    "who is the vice chancellor",
+    "treasurer kaun hai",
+    "qec director"
+   ]
+  },
+  {
+   "intent": "campus_life",
+   "route": "chroma:type=faq",
+   "required_entities": [],
+   "optional_entities": [],
+   "examples": [
+    "cafeteria kab khulta hai",
+    "sports gala kab hai",
+    "canteen timing",
+    "kis khel ka tournament hai",
+    "cafeteria kahan hai",
+    "chai kahan milegi"
+   ]
+  },
+  {
+   "intent": "greeting_smalltalk",
+   "route": "canned",
+   "required_entities": [],
+   "optional_entities": [],
+   "examples": [
+    "hello",
+    "assalam o alaikum",
+    "salam",
+    "kya haal hai",
+    "thanks",
+    "shukriya"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1475 @@
+[
+ {
+  "entity_type": "department",
+  "id": "department_of_computer_science",
+  "canonical": "Department of Computer Science",
+  "aliases": [
+   "computer wala department",
+   "cs ka department",
+   "department of computer science"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_information_technology",
+  "canonical": "Department of Information Technology",
+  "aliases": [
+   "department of information technology",
+   "it ka department"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_artificial_intelligence",
+  "canonical": "Department of Artificial Intelligence",
+  "aliases": [
+   "department of artificial intelligence"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_data_science",
+  "canonical": "Department of Data Science",
+  "aliases": [
+   "data science ka department",
+   "department of data science"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_computer_engineering",
+  "canonical": "Department of Computer Engineering",
+  "aliases": [
+   "department of computer engineering",
+   "engineering department"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_biosciences_dairy_technology",
+  "canonical": "Department of Biosciences / Dairy Technology",
+  "aliases": [
+   "biosciences / dairy technology",
+   "department of biosciences / dairy technology"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_livestock_and_poultry_sciences",
+  "canonical": "Department of Livestock and Poultry Sciences",
+  "aliases": [
+   "department of livestock and poultry sciences",
+   "livestock and poultry sciences"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_microbiology",
+  "canonical": "Department of Microbiology",
+  "aliases": [
+   "department of microbiology"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_biotechnology",
+  "canonical": "Department of Biotechnology",
+  "aliases": [
+   "department of biotechnology"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_clinical_sciences_pathobiology",
+  "canonical": "Department of Clinical Sciences / Pathobiology",
+  "aliases": [
+   "clinical sciences / pathobiology",
+   "department of clinical sciences / pathobiology"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_plant_production_agronomy",
+  "canonical": "Department of Plant Production & Agronomy",
+  "aliases": [
+   "department of plant production & agronomy",
+   "plant production & agronomy"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_entomology_food_science",
+  "canonical": "Department of Entomology & Food Science",
+  "aliases": [
+   "department of entomology & food science",
+   "entomology & food science"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_horticulture_plant_pathology",
+  "canonical": "Department of Horticulture & Plant Pathology",
+  "aliases": [
+   "department of horticulture & plant pathology"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_behavioral_sciences",
+  "canonical": "Department of Behavioral Sciences",
+  "aliases": [
+   "behavioral sciences",
+   "department of behavioral sciences"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_islamic_studies_and_languages",
+  "canonical": "Department of Islamic Studies and Languages",
+  "aliases": [
+   "department of islamic studies and languages",
+   "islamic studies and languages",
+   "languages department"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_economics_business_administration",
+  "canonical": "Department of Economics & Business Administration",
+  "aliases": [
+   "business department",
+   "department of economics & business administration",
+   "economics & business administration",
+   "management sciences"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_sociology_social_sciences",
+  "canonical": "Department of Sociology & Social Sciences",
+  "aliases": [
+   "department of sociology & social sciences",
+   "social sciences",
+   "sociology & social sciences"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_education",
+  "canonical": "Department of Education",
+  "aliases": [
+   "department of education",
+   "taleem"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_chemistry",
+  "canonical": "Department of Chemistry",
+  "aliases": [
+   "department of chemistry",
+   "kimiya"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_environmental_sciences",
+  "canonical": "Department of Environmental Sciences",
+  "aliases": [
+   "department of environmental sciences"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_mathematics",
+  "canonical": "Department of Mathematics",
+  "aliases": [
+   "department of mathematics",
+   "riazi"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_physics",
+  "canonical": "Department of Physics",
+  "aliases": [
+   "department of physics",
+   "phy"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_zoology",
+  "canonical": "Department of Zoology",
+  "aliases": [
+   "department of zoology"
+  ]
+ },
+ {
+  "entity_type": "department",
+  "id": "department_of_botany",
+  "canonical": "Department of Botany",
+  "aliases": [
+   "department of botany",
+   "nabatiyat"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_computer_science",
+  "canonical": "BS Computer Science",
+  "aliases": [
+   "bs computer science",
+   "bs computer science (bscs)",
+   "bs cs",
+   "bscs",
+   "computer science",
+   "computer science ki degree",
+   "cs"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_information_technology",
+  "canonical": "BS Information Technology",
+  "aliases": [
+   "bs information technology",
+   "bs it",
+   "bscs - information technology (bsit)",
+   "bsit",
+   "information technology",
+   "it"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_artificial_intelligence",
+  "canonical": "BS Artificial Intelligence",
+  "aliases": [
+   "ai",
+   "artificial intelligence",
+   "bs ai",
+   "bs artificial intelligence",
+   "bsai",
+   "bscs - artificial intelligence (bsai)"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_data_science",
+  "canonical": "BS Data Science",
+  "aliases": [
+   "bs data science",
+   "bs ds",
+   "bscs - data science (bsds)",
+   "bsds",
+   "data science",
+   "ds"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_computer_engineering",
+  "canonical": "BS Computer Engineering",
+  "aliases": [
+   "b.sc computer engineering",
+   "bs ce",
+   "bs computer engineering",
+   "bsc computer engineering",
+   "bsce",
+   "ce",
+   "computer engineering"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_dairy_technology",
+  "canonical": "BS Dairy Technology",
+  "aliases": [
+   "bs dairy technology",
+   "dairy",
+   "dairy technology"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_poultry_science",
+  "canonical": "BS Poultry Science",
+  "aliases": [
+   "bs poultry science",
+   "bs poultry sciences",
+   "poultry",
+   "poultry science",
+   "poultry sciences"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_microbiology",
+  "canonical": "BS Microbiology",
+  "aliases": [
+   "bs microbiology",
+   "microbiology"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_microbiology",
+  "canonical": "Post-ADP Microbiology",
+  "aliases": [
+   "adp ke baad microbiology",
+   "microbiology post adp",
+   "post adp microbiology",
+   "post-adp (microbiology)",
+   "post-adp microbiology"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_biotechnology",
+  "canonical": "BS Biotechnology",
+  "aliases": [
+   "biotechnology",
+   "bs biotechnology"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_biotechnology",
+  "canonical": "Post-ADP Biotechnology",
+  "aliases": [
+   "adp ke baad biotechnology",
+   "biotechnology post adp",
+   "post adp biotechnology",
+   "post-adp (biotechnology)",
+   "post-adp biotechnology"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "livestock_assistant_diploma_lad",
+  "canonical": "Livestock Assistant Diploma (LAD)",
+  "aliases": [
+   "lad",
+   "livestock assistant diploma",
+   "livestock assistant diploma (lad)",
+   "livestock diploma"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "b_sc_hons_agriculture",
+  "canonical": "B.Sc. (Hons) Agriculture",
+  "aliases": [
+   "agri",
+   "agriculture",
+   "b.sc agriculture",
+   "b.sc. (hons) agriculture",
+   "bsc agriculture",
+   "zaraat"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_food_science_technology",
+  "canonical": "BS Food Science & Technology",
+  "aliases": [
+   "bs food science & technology",
+   "food science",
+   "food science & technology",
+   "food science and technology",
+   "food technology"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_horticulture_plant_pathology",
+  "canonical": "BS Horticulture & Plant Pathology",
+  "aliases": [
+   "bs horticulture & plant pathology",
+   "horticulture & plant pathology"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_applied_psychology",
+  "canonical": "BS Applied Psychology",
+  "aliases": [
+   "applied psychology",
+   "bs applied psychology",
+   "bs psychology",
+   "psychology"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_psychology",
+  "canonical": "Post-ADP Psychology",
+  "aliases": [
+   "adp ke baad psychology",
+   "post adp psychology",
+   "post-adp (psychology)",
+   "post-adp psychology",
+   "psychology post adp"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_sports_science",
+  "canonical": "BS Sports Science",
+  "aliases": [
+   "bs sports science",
+   "sports",
+   "sports science"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_sports_science",
+  "canonical": "Post-ADP Sports Science",
+  "aliases": [
+   "adp ke baad sports science",
+   "post adp sports science",
+   "post-adp (sports science)",
+   "post-adp sports science",
+   "sports science post adp"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_english",
+  "canonical": "BS English",
+  "aliases": [
+   "bs english",
+   "english"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_english",
+  "canonical": "Post-ADP English",
+  "aliases": [
+   "adp ke baad english",
+   "english post adp",
+   "post adp english",
+   "post-adp (english)",
+   "post-adp english"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_islamic_studies",
+  "canonical": "BS Islamic Studies",
+  "aliases": [
+   "bs islamic studies",
+   "islamic studies"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_islamic_studies",
+  "canonical": "Post-ADP Islamic Studies",
+  "aliases": [
+   "adp ke baad islamic studies",
+   "islamic studies post adp",
+   "post adp islamic studies",
+   "post-adp (islamic studies)",
+   "post-adp islamic studies"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_urdu",
+  "canonical": "BS Urdu",
+  "aliases": [
+   "bs urdu",
+   "urdu"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_urdu",
+  "canonical": "Post-ADP Urdu",
+  "aliases": [
+   "adp ke baad urdu",
+   "post adp urdu",
+   "post-adp (urdu)",
+   "post-adp urdu",
+   "urdu post adp"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bba_general",
+  "canonical": "BBA (General)",
+  "aliases": [
+   "bba",
+   "bba (general)",
+   "bba general",
+   "bba ki degree",
+   "business administration"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bba_it",
+  "canonical": "BBA-IT",
+  "aliases": [
+   "bba it",
+   "bba-it",
+   "bbait"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_bba",
+  "canonical": "Post-ADP BBA",
+  "aliases": [
+   "adp ke baad bba",
+   "bba post adp",
+   "post adp bba",
+   "post-adp (bba)",
+   "post-adp bba"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_economics",
+  "canonical": "BS Economics",
+  "aliases": [
+   "bs economics",
+   "economics"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_economics",
+  "canonical": "Post-ADP Economics",
+  "aliases": [
+   "adp ke baad economics",
+   "economics post adp",
+   "post adp economics",
+   "post-adp (economics)",
+   "post-adp economics"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_public_administration_governance",
+  "canonical": "BS Public Administration & Governance",
+  "aliases": [
+   "bs public administration",
+   "bs public administration & governance",
+   "pa",
+   "public admin",
+   "public administration",
+   "public administration & governance"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_public_administration",
+  "canonical": "Post-ADP Public Administration",
+  "aliases": [
+   "adp ke baad public administration",
+   "post adp public administration",
+   "post-adp (public administration)",
+   "post-adp public administration",
+   "public administration post adp"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_international_relations",
+  "canonical": "BS International Relations",
+  "aliases": [
+   "bs international relations",
+   "bs international relations (bs ir)",
+   "bs ir",
+   "bsir",
+   "international relations",
+   "ir"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_international_relations",
+  "canonical": "Post-ADP International Relations",
+  "aliases": [
+   "adp ke baad international relations",
+   "international relations post adp",
+   "post adp international relations",
+   "post-adp (international relations)",
+   "post-adp international relations"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_sociology",
+  "canonical": "BS Sociology",
+  "aliases": [
+   "bs sociology",
+   "sociology"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_sociology",
+  "canonical": "Post-ADP Sociology",
+  "aliases": [
+   "adp ke baad sociology",
+   "post adp sociology",
+   "post-adp (sociology)",
+   "post-adp sociology",
+   "sociology post adp"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_education",
+  "canonical": "BS Education",
+  "aliases": [
+   "bs education",
+   "education"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "b_ed_hons",
+  "canonical": "B.Ed (Hons)",
+  "aliases": [
+   "b.ed (hons)",
+   "b.ed hons",
+   "bed honours",
+   "bed hons"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_education",
+  "canonical": "Post-ADP Education",
+  "aliases": [
+   "adp ke baad education",
+   "education post adp",
+   "post adp education",
+   "post-adp (education)",
+   "post-adp education"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "b_ed_1_5_years",
+  "canonical": "B.Ed (1.5 Years)",
+  "aliases": [
+   "1.5 year b.ed",
+   "b.ed",
+   "b.ed (1.5 years)",
+   "bed",
+   "dedh saal b.ed"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_chemistry",
+  "canonical": "BS Chemistry",
+  "aliases": [
+   "bs chemistry",
+   "chem",
+   "chemistry"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_chemistry",
+  "canonical": "Post-ADP Chemistry",
+  "aliases": [
+   "adp ke baad chemistry",
+   "chemistry post adp",
+   "post adp chemistry",
+   "post-adp (chemistry)",
+   "post-adp chemistry"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_environmental_sciences",
+  "canonical": "BS Environmental Sciences",
+  "aliases": [
+   "bs environmental sciences",
+   "environmental sciences"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_environmental_sciences",
+  "canonical": "Post-ADP Environmental Sciences",
+  "aliases": [
+   "adp ke baad environmental sciences",
+   "environmental sciences post adp",
+   "post adp environmental sciences",
+   "post-adp (environmental science)",
+   "post-adp (environmental sciences)",
+   "post-adp environmental sciences"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_mathematics",
+  "canonical": "BS Mathematics",
+  "aliases": [
+   "bs mathematics",
+   "math",
+   "mathematics",
+   "maths"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_mathematics",
+  "canonical": "Post-ADP Mathematics",
+  "aliases": [
+   "adp ke baad mathematics",
+   "mathematics post adp",
+   "post adp mathematics",
+   "post-adp (mathematics)",
+   "post-adp mathematics"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_physics",
+  "canonical": "BS Physics",
+  "aliases": [
+   "bs physics",
+   "physics"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_zoology",
+  "canonical": "BS Zoology",
+  "aliases": [
+   "bs zoology",
+   "zoo",
+   "zoology"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_zoology",
+  "canonical": "Post-ADP Zoology",
+  "aliases": [
+   "adp ke baad zoology",
+   "post adp zoology",
+   "post-adp (zoology)",
+   "post-adp zoology",
+   "zoology post adp"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "bs_botany",
+  "canonical": "BS Botany",
+  "aliases": [
+   "botany",
+   "bs botany"
+  ]
+ },
+ {
+  "entity_type": "program",
+  "id": "post_adp_botany",
+  "canonical": "Post-ADP Botany",
+  "aliases": [
+   "adp ke baad botany",
+   "botany post adp",
+   "post adp botany",
+   "post-adp (botany)",
+   "post-adp botany"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "10_chungi",
+  "canonical": "10# Chungi",
+  "aliases": [
+   "10 chungi",
+   "10 no chungi",
+   "10 number chungi",
+   "10# chungi",
+   "dus number chungi"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "6_chungi",
+  "canonical": "6# Chungi",
+  "aliases": [
+   "6 chungi",
+   "6 no chungi",
+   "6 number chungi",
+   "6# chungi",
+   "chhe number chungi"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "afford",
+  "canonical": "Afford",
+  "aliases": [
+   "afford",
+   "afford chowk"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "aslam_moor",
+  "canonical": "Aslam Moor",
+  "aliases": [
+   "aslam moor",
+   "aslam mor"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "bhatta_moor",
+  "canonical": "Bhatta Moor",
+  "aliases": [
+   "bhatta moor"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "canal_colony",
+  "canonical": "Canal Colony",
+  "aliases": [
+   "canal colony"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "canal_main_pull",
+  "canonical": "Canal Main Pull",
+  "aliases": [
+   "canal ka pull",
+   "canal main pull",
+   "canal pull",
+   "main pull",
+   "nahar ka pull"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "city_thana",
+  "canonical": "City Thana",
+  "aliases": [
+   "city thana",
+   "police station",
+   "thana"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "eid_gah_chowk",
+  "canonical": "Eid Gah Chowk",
+  "aliases": [
+   "eid gah chowk",
+   "eidgah",
+   "eidgah chowk"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "faiz_chowk",
+  "canonical": "Faiz Chowk",
+  "aliases": [
+   "faiz chowk"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "gpo",
+  "canonical": "GPO",
+  "aliases": [
+   "dak khana",
+   "general post office",
+   "gpo",
+   "post office"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "general_bus_stand",
+  "canonical": "General Bus Stand",
+  "aliases": [
+   "adda",
+   "bus adda",
+   "bus stand",
+   "gbs",
+   "general bus adda",
+   "general bus stand"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "highway_gate",
+  "canonical": "Highway Gate",
+  "aliases": [
+   "highway gate"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "housing_colony",
+  "canonical": "Housing Colony",
+  "aliases": [
+   "housing colony"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "kalma_chowk",
+  "canonical": "Kalma Chowk",
+  "aliases": [
+   "kalma chowk"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "khan_di_hatti",
+  "canonical": "Khan di Hatti",
+  "aliases": [
+   "khan di hatti",
+   "khan ki hatti"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "mastana_hotel",
+  "canonical": "Mastana Hotel",
+  "aliases": [
+   "mastana",
+   "mastana hotel"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "railway_crossing",
+  "canonical": "Railway Crossing",
+  "aliases": [
+   "phatak",
+   "railway crossing",
+   "railway phatak"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "saddar_bazar",
+  "canonical": "Saddar Bazar",
+  "aliases": [
+   "sadar",
+   "sadar bazar",
+   "saddar",
+   "saddar bazar"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "sugar_mills_moor",
+  "canonical": "Sugar Mills Moor",
+  "aliases": [
+   "sugar mill",
+   "sugar mill moor",
+   "sugar mills",
+   "sugar mills moor",
+   "sugar mills mor"
+  ]
+ },
+ {
+  "entity_type": "bus_stop",
+  "id": "tariq_sweets",
+  "canonical": "Tariq Sweets",
+  "aliases": [
+   "tariq mithai",
+   "tariq sweets"
+  ]
+ },
+ {
+  "entity_type": "campus",
+  "id": "city_campus",
+  "canonical": "City Campus",
+  "aliases": [
+   "city",
+   "city campus",
+   "city wala campus",
+   "shehr wala campus"
+  ]
+ },
+ {
+  "entity_type": "campus",
+  "id": "main_campus",
+  "canonical": "Main Campus",
+  "aliases": [
+   "asal campus",
+   "bara campus",
+   "main",
+   "main campus",
+   "university campus"
+  ]
+ },
+ {
+  "entity_type": "office",
+  "id": "library",
+  "canonical": "Central Library",
+  "aliases": [
+   "central library",
+   "kitab ghar",
+   "kutub khana",
+   "lib",
+   "library"
+  ]
+ },
+ {
+  "entity_type": "office",
+  "id": "medical",
+  "canonical": "Medical Facilitation Center",
+  "aliases": [
+   "clinic",
+   "dawakhana",
+   "dispensary",
+   "doctor",
+   "hospital",
+   "medical",
+   "medical center",
+   "medical facilitation center"
+  ]
+ },
+ {
+  "entity_type": "office",
+  "id": "transport",
+  "canonical": "Transport Department",
+  "aliases": [
+   "bus department",
+   "bus office",
+   "transport",
+   "transport department",
+   "transport office"
+  ]
+ },
+ {
+  "entity_type": "office",
+  "id": "scholarships",
+  "canonical": "Scholarships & Financial Aid Office",
+  "aliases": [
+   "financial aid",
+   "scholarship",
+   "scholarship office",
+   "scholarships & financial aid office",
+   "wazifa office"
+  ]
+ },
+ {
+  "entity_type": "office",
+  "id": "qec",
+  "canonical": "Quality Enhancement Cell",
+  "aliases": [
+   "qec",
+   "quality cell",
+   "quality enhancement cell"
+  ]
+ },
+ {
+  "entity_type": "office",
+  "id": "exams",
+  "canonical": "Controller of Examinations",
+  "aliases": [
+   "coe",
+   "controller",
+   "controller of examinations",
+   "exam office",
+   "exam section",
+   "imtihan office"
+  ]
+ },
+ {
+  "entity_type": "office",
+  "id": "registrar",
+  "canonical": "Registrar Office",
+  "aliases": [
+   "registrar",
+   "registrar office",
+   "registrar sahib"
+  ]
+ },
+ {
+  "entity_type": "office",
+  "id": "vc",
+  "canonical": "Vice Chancellor",
+  "aliases": [
+   "vc",
+   "vc office",
+   "vc sahib",
+   "vice chancellor"
+  ]
+ },
+ {
+  "entity_type": "office",
+  "id": "treasurer",
+  "canonical": "Treasurer",
+  "aliases": [
+   "accounts office",
+   "finance office",
+   "treasurer"
+  ]
+ },
+ {
+  "entity_type": "office",
+  "id": "faculty_hostel",
+  "canonical": "Faculty Hostel",
+  "aliases": [
+   "faculty hostel",
+   "guest house",
+   "teachers hostel"
+  ]
+ },
+ {
+  "entity_type": "office",
+  "id": "admission_office",
+  "canonical": "Admission / Info Office",
+  "aliases": [
+   "admission / info office",
+   "admission office",
+   "admission wala office",
+   "admissions",
+   "info office"
+  ]
+ },
+ {
+  "entity_type": "shift",
+  "id": "morning",
+  "canonical": "Morning",
+  "aliases": [
+   "morning",
+   "morning shift",
+   "subah",
+   "subah ki shift",
+   "subah wali shift"
+  ]
+ },
+ {
+  "entity_type": "shift",
+  "id": "afternoon",
+  "canonical": "Afternoon",
+  "aliases": [
+   "afternoon",
+   "afternoon shift",
+   "dopahar",
+   "dopahar ki shift",
+   "evening",
+   "evening shift",
+   "shaam ki shift"
+  ]
+ },
+ {
+  "entity_type": "program_type",
+  "id": "post_adp",
+  "canonical": "Post-ADP",
+  "aliases": [
+   "2 saal ki degree",
+   "5th semester entry",
+   "adp ke baad",
+   "lateral entry",
+   "post adp",
+   "post-adp"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "about_vision_mission",
+  "canonical": "University of Layyah vision, mission and goals",
+  "aliases": [
+   "about university",
+   "goals",
+   "mission",
+   "university ka maqsad",
+   "university ka vision",
+   "university ke bare mein",
+   "university of layyah",
+   "uol kya hai",
+   "vision"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "contact_directory",
+  "canonical": "Contact directory of all offices",
+  "aliases": [
+   "contact directory",
+   "contact list",
+   "email addresses",
+   "helpline",
+   "kis office ka number",
+   "phone numbers",
+   "rabta number",
+   "sab ke numbers"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faq_attendance_policy",
+  "canonical": "What is the attendance policy at University of Layyah?",
+  "aliases": [
+   "75 percent attendance",
+   "attendance",
+   "attendance kam ho to",
+   "attendance policy",
+   "hazri",
+   "kitni attendance chahiye",
+   "short attendance"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faq_grading_system",
+  "canonical": "What grading system and passing criteria does UL follow?",
+  "aliases": [
+   "cbcs",
+   "cgpa",
+   "gpa",
+   "grading policy",
+   "grading system",
+   "kitne marks pass",
+   "pass marks kitne hain",
+   "passing marks"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faq_exam_schedule",
+  "canonical": "When are midterm and final term examinations conducted?",
+  "aliases": [
+   "16th week",
+   "8th week",
+   "exams kab hote hain",
+   "final exam",
+   "final term",
+   "imtihan ka schedule",
+   "mid exam",
+   "midterm",
+   "paper kab honge"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faq_discipline_rules",
+  "canonical": "What are the general discipline rules on campus?",
+  "aliases": [
+   "campus rules",
+   "card zaroori",
+   "discipline",
+   "kya allowed nahi hai",
+   "qawaid",
+   "ragging",
+   "smoking",
+   "student id card"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faq_student_hostel_fee",
+  "canonical": "What is the fee for the student hostel at University of Layyah?",
+  "aliases": [
+   "boys hostel",
+   "girls hostel",
+   "hostel charges",
+   "hostel fee",
+   "hostel ki fees kitni hai",
+   "hostel seat",
+   "mess charges",
+   "student hostel"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faq_transport_card",
+  "canonical": "What is the transport card fee and what routes are covered?",
+  "aliases": [
+   "3500",
+   "bus card",
+   "bus card kitne ka hai",
+   "bus ki fee",
+   "bus pass fee",
+   "kaun se routes",
+   "transport card",
+   "transport fee"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faq_sports_gala",
+  "canonical": "When is the Sports Gala scheduled and what games are included?",
+  "aliases": [
+   "cricket",
+   "football",
+   "inter departmental",
+   "khel",
+   "sports gala",
+   "sports gala kab hai",
+   "tournament"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faq_cafeteria_timings",
+  "canonical": "What are the Main Campus Cafeteria timings?",
+  "aliases": [
+   "cafe timing",
+   "cafeteria",
+   "cafeteria kab khulta hai",
+   "canteen",
+   "chai",
+   "khana",
+   "lunch",
+   "tuck shop"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faculty_faculty_of_computing_engineering",
+  "canonical": "Faculty of Computing & Engineering",
+  "aliases": [
+   "faculty of computing & engineering"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faculty_faculty_of_veterinary_and_animal_sciences",
+  "canonical": "Faculty of Veterinary and Animal Sciences",
+  "aliases": [
+   "faculty of veterinary and animal sciences"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faculty_faculty_of_agricultural_sciences_and_technology",
+  "canonical": "Faculty of Agricultural Sciences and Technology",
+  "aliases": [
+   "faculty of agricultural sciences and technology"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faculty_faculty_of_management_humanities_social_sciences",
+  "canonical": "Faculty of Management, Humanities & Social Sciences",
+  "aliases": [
+   "faculty of management, humanities & social sciences"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "faculty_faculty_of_natural_sciences",
+  "canonical": "Faculty of Natural Sciences",
+  "aliases": [
+   "faculty of natural sciences"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "fee_group_comp_engineering",
+  "canonical": "Fee structure 2026: BS Computer Engineering (special criteria)",
+  "aliases": [
+   "bs computer engineering (special criteria)"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "fee_group_computing",
+  "canonical": "Fee structure 2026: Computing Group",
+  "aliases": [
+   "computing group"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "fee_group_natural_applied",
+  "canonical": "Fee structure 2026: Natural, Applied & Agricultural Sciences Group",
+  "aliases": [
+   "natural, applied & agricultural sciences group"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "fee_group_arts_humanities",
+  "canonical": "Fee structure 2026: Arts, Humanities & Social Sciences Group",
+  "aliases": [
+   "arts, humanities & social sciences group"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "fee_group_post_adp_natural",
+  "canonical": "Fee structure 2026: Post-ADP Natural & Applied Sciences",
+  "aliases": [
+   "post-adp natural & applied sciences"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "fee_group_post_adp_arts",
+  "canonical": "Fee structure 2026: Post-ADP Arts, Humanities & Social Sciences",
+  "aliases": [
+   "post-adp arts, humanities & social sciences"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "admission_eligibility_overview",
+  "canonical": "Eligibility and merit formulas by programme category",
+  "aliases": [
+   "admission criteria",
+   "admission ki shart",
+   "eligibility",
+   "fsc mein kitne marks",
+   "kitne percent chahiye",
+   "merit formula",
+   "merit kaise banti hai",
+   "minimum marks",
+   "post adp eligibility"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "bus_overview",
+  "canonical": "Bus schedule overview (all routes)",
+  "aliases": [
+   "bus ka time",
+   "bus ke timings",
+   "bus kitne baje hai",
+   "bus schedule",
+   "bus timetable",
+   "city campus se main campus bus",
+   "inter campus bus",
+   "main campus ke liye bus",
+   "sab routes",
+   "shuttle"
+  ]
+ },
+ {
+  "entity_type": "topic",
+  "id": "campuses_overview",
+  "canonical": "University of Layyah campuses",
+  "aliases": [
+   "campus address",
+   "campus kahan hai",
+   "campus location",
+   "campuses",
+   "city campus kahan hai",
+   "kitne campus hain",
+   "kitny campus hain",
+   "main campus kahan hai",
+   "university ka address",
+   "university kahan hai",
+   "university ke kitne campuses hain",
+   "university ki location"
+  ]
+ }
+]

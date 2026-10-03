@@ -1,0 +1,2276 @@
+{
+  "_meta": {
+    "institution": "University of Layyah",
+    "source_file": "Full_Information.json",
+    "prepared": "2026-09-28",
+    "notes": [
+      "Source file was 13 JSON documents concatenated (not one valid JSON); bus routes had a stray '{' and '}'. Fixed.",
+      "Times converted to 24h. Phones normalised to local + international. Program names normalised.",
+      "Records with verified=false or fee_status != confirmed need a human decision - see data_report.md."
+    ]
+  },
+  "university": {
+    "name": "University of Layyah",
+    "short_name": "UL",
+    "website_domain": "ul.edu.pk",
+    "admission_portal": "ul.edu.pk/admissions",
+    "vision": "To be the university of choice in transforming the region into a hub of commercialization by empowering youth through cutting-edge research and inclusive development.",
+    "mission": "The University of Layyah will inspire, educate and develop its students to lead by example in nation-building, achieve excellence in innovative learning and address the needs of all segments of life and beyond.",
+    "goals": [
+      "Character building of the students to impart tolerance and to develop the habit of doing innovative work.",
+      "Collaboration with national and international experts and institutes for capacity building of faculty and students.",
+      "Providing a conducive environment for student's learning to develop leadership qualities.",
+      "Affordable fee structure to encourage the people of the area to achieve their goals."
+    ]
+  },
+  "campuses": [
+    {
+      "name": "Main Campus",
+      "address": null,
+      "notes": null
+    },
+    {
+      "name": "City Campus",
+      "address": null,
+      "notes": null
+    }
+  ],
+  "contact": {
+    "office_address": "Katchehry Road, Layyah",
+    "email": "info@ul.edu.pk",
+    "phone": "+920606920247",
+    "phone_local": "0606-920247",
+    "phone_intl": "+92 606 920247",
+    "verified": false,
+    "note": "This phone number is identical to the Transport Department number."
+  },
+  "administration": [
+    {
+      "role_id": "vice_chancellor",
+      "name": "Prof. Dr. M. Zubair Abu Bakar",
+      "designation": "Vice Chancellor",
+      "responsibilities": "Academic and administrative head providing strategic leadership, fostering excellence in education and research, and ensuring institutional growth and governance.",
+      "staff": [
+        {
+          "designation": "PS to Vice Chancellor",
+          "name": "Dr. Qaiser Abbas Jafri"
+        }
+      ]
+    },
+    {
+      "role_id": "registrar",
+      "name": "Prof. Dr. Abid Ali",
+      "designation": "Registrar",
+      "responsibilities": "Oversees academic administration, HR, legal affairs, and statutory responsibilities.",
+      "staff": [
+        {
+          "designation": "Assistant",
+          "name": "Shahid Ashraf"
+        },
+        {
+          "designation": "PA to Registrar",
+          "name": "Muhammad Bilal Abbas"
+        },
+        {
+          "designation": "Clerical Staff",
+          "name": "Mr. Muhammad Ishaq"
+        },
+        {
+          "designation": "Clerical Staff",
+          "name": "Ms. Ayesha Noor"
+        }
+      ]
+    },
+    {
+      "role_id": "treasurer",
+      "name": "Muhammad Shoaib Khan",
+      "designation": "Treasurer",
+      "responsibilities": "Handles all financial operations including budgeting, auditing, and expenditure monitoring for transparency.",
+      "staff": [
+        {
+          "designation": "PA to Treasurer",
+          "name": "Mr. Usman Tahir"
+        },
+        {
+          "designation": "Clerical Staff",
+          "name": "Mr. Muhammad Atif Naeem"
+        },
+        {
+          "designation": "Clerical Staff",
+          "name": "Mr. Muhammad Zakariya"
+        },
+        {
+          "designation": "Clerical Staff",
+          "name": "Mr. Muhammad Ameen"
+        }
+      ]
+    },
+    {
+      "role_id": "controller_of_examinations",
+      "name": "Rashid Iqbal Klasra",
+      "designation": "Controller of Examinations",
+      "responsibilities": "Responsible for fair conduct of examinations, result processing, degree issuance, and academic record maintenance.",
+      "staff": [
+        {
+          "designation": "PA to Controller of Examinations",
+          "name": "Mr. Shafqat Abbas"
+        },
+        {
+          "designation": "Clerical Staff",
+          "name": "Mr. Nasir Ali"
+        },
+        {
+          "designation": "Clerical Staff",
+          "name": "Mr. Mazhar Iqbal"
+        }
+      ]
+    }
+  ],
+  "qec": {
+    "entity": "Quality Enhancement Cell (QEC)",
+    "institution": "University of Layyah",
+    "organogram": {
+      "director": "Prof. Dr. Azhar Abbas Khan",
+      "deputy_director": "Dr. Muhammad Faisal Shahzad",
+      "assistant_director": null,
+      "data_analyst": "Mr. Rameez Farooq"
+    },
+    "vision": "To make Quality Enhancement Cell competitive with the standards of national and international institutes.",
+    "mission": "To strengthen quality of education at University of Layyah by fulfilling stakeholder requirements through HEC quality assurance policies.",
+    "core_services": [
+      "Conducting online teacher and course evaluations every semester",
+      "Providing plagiarism checking services using HEC-approved software",
+      "Assisting faculty with plagiarism checks for HEC travel grants",
+      "Monitoring academic activities and degree programs as per HEC rules",
+      "Collecting student feedback and employer surveys",
+      "Organizing quality assurance seminars and workshops"
+    ]
+  },
+  "library": {
+    "entity": "Central Library",
+    "institution": "University of Layyah",
+    "librarian_message": {
+      "objective": "To provide the best information and reference services in line with ICT trends and global university needs.",
+      "academic_support": "Empowers students and faculty to access and update knowledge to achieve educational, research, and professional goals.",
+      "environment": "Offers wonderful spaces and digital resources to support teaching, learning, and research activities."
+    },
+    "about_library": {
+      "description": "Central hub for academic resources supporting educational and research needs with textbooks, reference materials, research journals, and digital resources.",
+      "environment": "Peaceful, resource-rich environment fostering independent learning and intellectual growth.",
+      "automation": "Fully automated with an online library system for efficient book search and borrowing services."
+    },
+    "facilities": [
+      "Digital Library Access",
+      "Reference and Lending Services",
+      "High-Speed Internet & Wi-Fi",
+      "Research Journals & Databases",
+      "Spacious Reading Areas",
+      "Online Book Search System",
+      "Discussion Rooms for Group Study",
+      "Photocopying and Printing Services",
+      "Access to E-Journals and Online Databases"
+    ],
+    "contact_info": {
+      "email": "library@ul.edu.pk",
+      "phone": "+92-0606-920239",
+      "timings": "Monday to Friday, 8:30 AM – 4:30 PM"
+    }
+  },
+  "medical_center": {
+    "entity": "Medical Facilitation Center",
+    "institution": "University of Layyah",
+    "tagline": "Ensuring Health and Wellness - Dedicated to Your Wellbeing, Every Day",
+    "medical_officer_message": {
+      "priority": "Health and safety of students, faculty, and staff.",
+      "commitment": "Delivering compassionate and professional medical care and encouraging preventive health programs."
+    },
+    "about_facility": {
+      "description": "Provides comprehensive medical services equipped with qualified healthcare professionals, basic diagnostic tools, and essential medicines.",
+      "focus": "Routine health needs, emergencies, preventive care, health education, and timely medical assistance."
+    },
+    "facilities_and_services": [
+      "On-campus Medical Clinic",
+      "First Aid and Emergency Care",
+      "Periodic Health Check-ups",
+      "Health Awareness & Counseling",
+      "Immunization and Vaccination Programs",
+      "Referral Services to Nearby Hospitals",
+      "24/7 Emergency Helpline"
+    ],
+    "contact_info": {
+      "email": "medical@ul.edu.pk",
+      "phone": "+92-0606-920241",
+      "clinic_hours": "Monday to Friday, 8:00 AM – 5:00 PM",
+      "emergency_helpline": "+92-0606-920299"
+    }
+  },
+  "scholarships": {
+    "entity": "Scholarships & Financial Aid Office",
+    "institution": "University of Layyah",
+    "introduction": {
+      "objective": "Promoting academic excellence and accessibility by supporting talented, hardworking, and financially deserving students.",
+      "policy": "Scholarships are awarded purely on merit, need-based, or special criteria established by donors and university regulations."
+    },
+    "available_scholarships": [
+      "Merit-Based Scholarships",
+      "Need-Based Financial Aid",
+      "Ehsaas Undergraduate Scholarship",
+      "Punjab Educational Endowment Fund (PEEF)",
+      "Orphan/Disabled Student Scholarships",
+      "Minority Student Scholarships",
+      "Faculty/Staff Children Concessions"
+    ],
+    "application_process": {
+      "how_to_apply": "Submit required documents to the Scholarships & Financial Aid Office upon announcement via notice board and website.",
+      "guidance": "University conducts awareness seminars and guidance sessions to help students complete the application process effectively."
+    },
+    "contact_info": {
+      "email": "scholarships@ul.edu.pk",
+      "phone": "+92-0606-920240",
+      "office_hours": "Monday to Friday, 9:00 AM – 4:00 PM"
+    }
+  },
+  "faculty_hostel": {
+    "entity": "Faculty Hostel",
+    "institution": "University of Layyah",
+    "description": "Provides modern, peaceful, and secure residence for faculty members and visiting scholars with easy access to academic facilities.",
+    "incharge": {
+      "name": "Dr. Muhammad Ali",
+      "designation": "Incharge Faculty Hostel"
+    },
+    "facilities": [
+      "Spacious furnished rooms",
+      "24/7 Internet & Electricity",
+      "Dining & Common lounge",
+      "CCTV & Security Staff",
+      "Green lawns & recreation area"
+    ],
+    "booking_process": {
+      "eligibility": "Faculty members and visiting scholars",
+      "procedure": "Advance booking request required, subject to room availability and approval of the competent authority."
+    },
+    "contact_info": {
+      "contact_person": "Dr. Muhammad Usman",
+      "phone": "+92-0333-5922476"
+    }
+  },
+  "transport": {
+    "info": {
+      "entity": "Transport Department",
+      "institution": "University of Layyah",
+      "incharge_transport": {
+        "name": "Dr. Azhar Abbas Khan",
+        "designation": "Incharge Transport",
+        "message": "Recognizes the importance of safe, efficient, comfortable, and cost-effective transportation connecting key areas of the city with the campus, prioritizing passenger satisfaction and high safety standards."
+      },
+      "about_services": {
+        "description": "Provides regular pick-and-drop commuting services for students and staff from various routes in and around Layyah city.",
+        "fleet_management": "Well-maintained fleet operated by trained drivers and monitored for safety, punctuality, and efficiency with scheduled maintenance checks."
+      },
+      "key_features": [
+        "Air-conditioned & Non-AC buses",
+        "Designated pick-up/drop points",
+        "Separate buses for male & female students",
+        "Trained drivers and punctual schedule",
+        "Affordable monthly transport passes",
+        "Emergency contact availability on all buses",
+        "Regular maintenance & cleanliness of buses"
+      ],
+      "contact_info": {
+        "email": "transport@ul.edu.pk",
+        "phone": "+92-0606-920247",
+        "office_hours": "Monday to Friday, 8:30 AM – 4:30 PM"
+      }
+    },
+    "routes": [
+      {
+        "route_id": 1,
+        "shift_label": "Morning",
+        "category": "City Routes to City Campus",
+        "driver_name": "Mr. Mazhar Mahmood",
+        "departure_time": "07:00",
+        "arrival_time": "07:30",
+        "duration_min": 30,
+        "departure_time_12h": "07:00 AM",
+        "arrival_time_12h": "07:30 AM",
+        "starting_point": "Sugar Mills Moor",
+        "destination": "City Campus",
+        "stops": [
+          "Sugar Mills Moor",
+          "Housing Colony",
+          "10# Chungi",
+          "Khan di Hatti",
+          "Canal Colony",
+          "Highway Gate",
+          "Eid Gah Chowk",
+          "Mastana Hotel",
+          "Aslam Moor",
+          "Saddar Bazar",
+          "Railway Crossing",
+          "Tariq Sweets",
+          "Canal Main Pull",
+          "General Bus Stand",
+          "City Campus"
+        ],
+        "verified": true,
+        "notes": []
+      },
+      {
+        "route_id": 2,
+        "shift_label": "Morning",
+        "category": "City Routes to City Campus",
+        "driver_name": "Mr. Ghulam Fareed",
+        "departure_time": "07:00",
+        "arrival_time": "07:30",
+        "duration_min": 30,
+        "departure_time_12h": "07:00 AM",
+        "arrival_time_12h": "07:30 AM",
+        "starting_point": "General Bus Stand",
+        "destination": "City Campus",
+        "stops": [
+          "General Bus Stand",
+          "Afford",
+          "Faiz Chowk",
+          "Bhatta Moor",
+          "Kalma Chowk",
+          "6# Chungi",
+          "GPO",
+          "City Thana",
+          "Aslam Moor",
+          "Saddar Bazar",
+          "Canal Main Pull",
+          "General Bus Stand",
+          "City Campus"
+        ],
+        "verified": true,
+        "notes": []
+      },
+      {
+        "route_id": 3,
+        "shift_label": "Morning",
+        "category": "City Routes to City Campus",
+        "driver_name": "Mr. Muhammad Rizwan",
+        "departure_time": "07:10",
+        "arrival_time": "07:30",
+        "duration_min": 20,
+        "departure_time_12h": "07:10 AM",
+        "arrival_time_12h": "07:30 AM",
+        "starting_point": "General Bus Stand",
+        "destination": "City Campus",
+        "stops": [
+          "General Bus Stand",
+          "Canal Main Pull",
+          "Saddar Bazar",
+          "Aslam Moor",
+          "Canal Main Pull",
+          "General Bus Stand",
+          "City Campus"
+        ],
+        "verified": true,
+        "notes": []
+      },
+      {
+        "route_id": 4,
+        "shift_label": "Morning Inter-Campus Shuttle",
+        "category": "City Campus to Main Campus",
+        "driver_name": "Mr. Mazhar Mahmood",
+        "departure_time": "07:45",
+        "arrival_time": "08:00",
+        "duration_min": 15,
+        "departure_time_12h": "07:45 AM",
+        "arrival_time_12h": "08:00 AM",
+        "starting_point": "City Campus",
+        "destination": "Main Campus",
+        "stops": [
+          "City Campus",
+          "Main Campus"
+        ],
+        "verified": true,
+        "notes": []
+      },
+      {
+        "route_id": 8,
+        "shift_label": "Mid-Day City Shuttle",
+        "category": "City Campus to City Routes",
+        "driver_name": "Mr. Muhammad Rizwan",
+        "departure_time": "11:00",
+        "arrival_time": "11:40",
+        "duration_min": 40,
+        "departure_time_12h": "11:00 AM",
+        "arrival_time_12h": "11:40 AM",
+        "starting_point": "Sugar Mills Moor",
+        "destination": "City Campus",
+        "stops": [
+          "Sugar Mills Moor",
+          "Housing Colony",
+          "10# Chungi",
+          "Khan di Hatti",
+          "Canal Colony",
+          "Highway Gate",
+          "Eid Gah Chowk",
+          "Mastana Hotel",
+          "Aslam Moor",
+          "Saddar Bazar",
+          "Railway Crossing",
+          "Tariq Sweets",
+          "Canal Main Pull",
+          "General Bus Stand",
+          "City Campus"
+        ],
+        "verified": false,
+        "notes": [
+          "Category says 'City Campus to City Routes' but start/destination are city -> City Campus (fits a pickup for afternoon-shift students). Confirm.",
+          "Driver was written 'Mr. Rizwan'; normalised to 'Mr. Muhammad Rizwan' (assumed same person)."
+        ]
+      },
+      {
+        "route_id": 9,
+        "shift_label": "Mid-Day City Shuttle",
+        "category": "City Campus to City Routes",
+        "driver_name": "Mr. Muhammad Sami Ullah",
+        "departure_time": "11:00",
+        "arrival_time": "11:40",
+        "duration_min": 40,
+        "departure_time_12h": "11:00 AM",
+        "arrival_time_12h": "11:40 AM",
+        "starting_point": "General Bus Stand",
+        "destination": "City Campus",
+        "stops": [
+          "General Bus Stand",
+          "Afford",
+          "Faiz Chowk",
+          "Bhatta Moor",
+          "Kalma Chowk",
+          "6# Chungi",
+          "GPO",
+          "City Thana",
+          "Aslam Moor",
+          "Saddar Bazar",
+          "Canal Main Pull",
+          "General Bus Stand",
+          "City Campus"
+        ],
+        "verified": false,
+        "notes": [
+          "Category says 'City Campus to City Routes' but start/destination are city -> City Campus (fits a pickup for afternoon-shift students). Confirm."
+        ]
+      },
+      {
+        "route_id": 10,
+        "shift_label": "Evening Inter-Campus Shuttle",
+        "category": "City Campus to Main Campus",
+        "driver_name": "Mr. Muhammad Rizwan",
+        "departure_time": "11:45",
+        "arrival_time": "12:00",
+        "duration_min": 15,
+        "departure_time_12h": "11:45 AM",
+        "arrival_time_12h": "12:00 PM",
+        "starting_point": "City Campus",
+        "destination": "Main Campus",
+        "stops": [
+          "City Campus",
+          "Main Campus"
+        ],
+        "verified": true,
+        "notes": [
+          "Shift label says 'Evening' but departure is 11:45 AM / 11:50 AM (mid-day). Label likely wrong; times kept as given."
+        ]
+      },
+      {
+        "route_id": 11,
+        "shift_label": "Evening Inter-Campus Shuttle",
+        "category": "City Campus to Main Campus",
+        "driver_name": "Mr. Muhammad Sami Ullah",
+        "departure_time": "11:50",
+        "arrival_time": "12:05",
+        "duration_min": 15,
+        "departure_time_12h": "11:50 AM",
+        "arrival_time_12h": "12:05 PM",
+        "starting_point": "City Campus",
+        "destination": "Main Campus",
+        "stops": [
+          "City Campus",
+          "Main Campus"
+        ],
+        "verified": true,
+        "notes": [
+          "Shift label says 'Evening' but departure is 11:45 AM / 11:50 AM (mid-day). Label likely wrong; times kept as given."
+        ]
+      },
+      {
+        "route_id": 12,
+        "shift_label": "Afternoon Inter-Campus Return",
+        "category": "Main Campus to City Campus",
+        "driver_name": "Mr. Mazhar Mahmood",
+        "departure_time": "13:20",
+        "arrival_time": "13:35",
+        "duration_min": 15,
+        "departure_time_12h": "01:20 PM",
+        "arrival_time_12h": "01:35 PM",
+        "starting_point": "Main Campus",
+        "destination": "City Campus",
+        "stops": [
+          "Main Campus",
+          "City Campus"
+        ],
+        "verified": true,
+        "notes": []
+      },
+      {
+        "route_id": 13,
+        "shift_label": "Afternoon Inter-Campus Return",
+        "category": "Main Campus to City Campus",
+        "driver_name": "Mr. Ghulam Fareed",
+        "departure_time": "13:30",
+        "arrival_time": "13:45",
+        "duration_min": 15,
+        "departure_time_12h": "01:30 PM",
+        "arrival_time_12h": "01:45 PM",
+        "starting_point": "Main Campus",
+        "destination": "City Campus",
+        "stops": [
+          "Main Campus",
+          "City Campus"
+        ],
+        "verified": true,
+        "notes": []
+      },
+      {
+        "route_id": 14,
+        "shift_label": "Afternoon City Drop",
+        "category": "City Campus to City Route",
+        "driver_name": "Mr. Mazhar Mahmood",
+        "departure_time": "14:00",
+        "arrival_time": "14:30",
+        "duration_min": 30,
+        "departure_time_12h": "02:00 PM",
+        "arrival_time_12h": "02:30 PM",
+        "starting_point": "Sugar Mills Moor",
+        "destination": "City Campus",
+        "stops": [
+          "Sugar Mills Moor",
+          "Housing Colony",
+          "10# Chungi",
+          "Khan di Hatti",
+          "Canal Colony",
+          "Highway Gate",
+          "Eid Gah Chowk",
+          "Mastana Hotel",
+          "Aslam Moor",
+          "Saddar Bazar",
+          "Railway Crossing",
+          "Tariq Sweets",
+          "Canal Main Pull",
+          "General Bus Stand",
+          "City Campus"
+        ],
+        "verified": false,
+        "notes": [
+          "Labelled a 'drop' (City Campus -> city) but start/destination are city -> City Campus. Driver schedule suggests the real direction is City Campus -> city. Confirm."
+        ]
+      },
+      {
+        "route_id": 15,
+        "shift_label": "Afternoon City Drop",
+        "category": "City Campus to City Route",
+        "driver_name": "Mr. Ghulam Fareed",
+        "departure_time": "14:00",
+        "arrival_time": "14:30",
+        "duration_min": 30,
+        "departure_time_12h": "02:00 PM",
+        "arrival_time_12h": "02:30 PM",
+        "starting_point": "General Bus Stand",
+        "destination": "City Campus",
+        "stops": [
+          "General Bus Stand",
+          "Afford",
+          "Faiz Chowk",
+          "Bhatta Moor",
+          "Kalma Chowk",
+          "6# Chungi",
+          "GPO",
+          "City Thana",
+          "Aslam Moor",
+          "Saddar Bazar",
+          "Canal Main Pull",
+          "General Bus Stand",
+          "City Campus"
+        ],
+        "verified": false,
+        "notes": [
+          "Labelled a 'drop' (City Campus -> city) but start/destination are city -> City Campus. Driver schedule suggests the real direction is City Campus -> city. Confirm."
+        ]
+      },
+      {
+        "route_id": 16,
+        "shift_label": "Late Afternoon Inter-Campus Return",
+        "category": "Main Campus to City Campus",
+        "driver_name": "Mr. Muhammad Rizwan",
+        "departure_time": "16:30",
+        "arrival_time": "16:45",
+        "duration_min": 15,
+        "departure_time_12h": "04:30 PM",
+        "arrival_time_12h": "04:45 PM",
+        "starting_point": "Main Campus",
+        "destination": "City Campus",
+        "stops": [
+          "Main Campus",
+          "City Campus"
+        ],
+        "verified": true,
+        "notes": []
+      },
+      {
+        "route_id": 17,
+        "shift_label": "Evening Inter-Campus Return",
+        "category": "Main Campus to City Campus",
+        "driver_name": "Mr. Muhammad Sami Ullah",
+        "departure_time": "17:15",
+        "arrival_time": "17:30",
+        "duration_min": 15,
+        "departure_time_12h": "05:15 PM",
+        "arrival_time_12h": "05:30 PM",
+        "starting_point": "Main Campus",
+        "destination": "City Campus",
+        "stops": [
+          "Main Campus",
+          "City Campus"
+        ],
+        "verified": true,
+        "notes": []
+      },
+      {
+        "route_id": 18,
+        "shift_label": "Evening City Drop",
+        "category": "City Campus to City Routes",
+        "driver_name": "Mr. Mazhar Mahmood",
+        "departure_time": "17:30",
+        "arrival_time": "18:00",
+        "duration_min": 30,
+        "departure_time_12h": "05:30 PM",
+        "arrival_time_12h": "06:00 PM",
+        "starting_point": "Sugar Mills Moor",
+        "destination": "City Campus",
+        "stops": [
+          "Sugar Mills Moor",
+          "Housing Colony",
+          "10# Chungi",
+          "Khan di Hatti",
+          "Canal Colony",
+          "Highway Gate",
+          "Eid Gah Chowk",
+          "Mastana Hotel",
+          "Aslam Moor",
+          "Saddar Bazar",
+          "Railway Crossing",
+          "Tariq Sweets",
+          "Canal Main Pull",
+          "General Bus Stand",
+          "City Campus"
+        ],
+        "verified": false,
+        "notes": [
+          "Labelled a 'drop' (City Campus -> city) but start/destination are city -> City Campus. Driver schedule suggests the real direction is City Campus -> city. Confirm."
+        ]
+      },
+      {
+        "route_id": 19,
+        "shift_label": "Evening City Drop",
+        "category": "City Campus to City Routes",
+        "driver_name": "Mr. Ghulam Fareed",
+        "departure_time": "17:30",
+        "arrival_time": "18:00",
+        "duration_min": 30,
+        "departure_time_12h": "05:30 PM",
+        "arrival_time_12h": "06:00 PM",
+        "starting_point": "General Bus Stand",
+        "destination": "City Campus",
+        "stops": [
+          "General Bus Stand",
+          "Afford",
+          "Faiz Chowk",
+          "Bhatta Moor",
+          "Kalma Chowk",
+          "6# Chungi",
+          "GPO",
+          "City Thana",
+          "Aslam Moor",
+          "Saddar Bazar",
+          "Canal Main Pull",
+          "General Bus Stand",
+          "City Campus"
+        ],
+        "verified": false,
+        "notes": [
+          "Labelled a 'drop' (City Campus -> city) but start/destination are city -> City Campus. Driver schedule suggests the real direction is City Campus -> city. Confirm."
+        ]
+      }
+    ]
+  },
+  "admission": {
+    "portal_url": "ul.edu.pk/admissions",
+    "steps": [
+      {
+        "step_number": 1,
+        "title": "Visit the Admission Portal",
+        "description": "Go to the official admission portal at ul.edu.pk/admissions."
+      },
+      {
+        "step_number": 2,
+        "title": "Create an Account",
+        "description": "Select your Program Category. Register using your email and CNIC."
+      },
+      {
+        "step_number": 3,
+        "title": "Fill the Application Form",
+        "description": "Enter your personal information, academic details, and program preferences."
+      },
+      {
+        "step_number": 4,
+        "title": "Pay the Fee",
+        "description": "Download the fee challan and pay it at the designated bank. Upload the paid copy back to the portal."
+      },
+      {
+        "step_number": 5,
+        "title": "Submit and Download Admission Form",
+        "description": "Submit your application and keep visiting the portal for merit lists and updates."
+      }
+    ]
+  },
+  "academics": {
+    "faculties": [
+      {
+        "faculty_id": "faculty_of_computing_engineering",
+        "name": "Faculty of Computing & Engineering",
+        "departments": [
+          {
+            "department_id": "department_of_computer_science",
+            "name": "Department of Computer Science",
+            "faculty": "Faculty of Computing & Engineering",
+            "program_ids": [
+              "bs_computer_science"
+            ]
+          },
+          {
+            "department_id": "department_of_information_technology",
+            "name": "Department of Information Technology",
+            "faculty": "Faculty of Computing & Engineering",
+            "program_ids": [
+              "bs_information_technology"
+            ]
+          },
+          {
+            "department_id": "department_of_artificial_intelligence",
+            "name": "Department of Artificial Intelligence",
+            "faculty": "Faculty of Computing & Engineering",
+            "program_ids": [
+              "bs_artificial_intelligence"
+            ]
+          },
+          {
+            "department_id": "department_of_data_science",
+            "name": "Department of Data Science",
+            "faculty": "Faculty of Computing & Engineering",
+            "program_ids": [
+              "bs_data_science"
+            ]
+          },
+          {
+            "department_id": "department_of_computer_engineering",
+            "name": "Department of Computer Engineering",
+            "faculty": "Faculty of Computing & Engineering",
+            "program_ids": [
+              "bs_computer_engineering"
+            ]
+          }
+        ]
+      },
+      {
+        "faculty_id": "faculty_of_veterinary_and_animal_sciences",
+        "name": "Faculty of Veterinary and Animal Sciences",
+        "departments": [
+          {
+            "department_id": "department_of_biosciences_dairy_technology",
+            "name": "Department of Biosciences / Dairy Technology",
+            "faculty": "Faculty of Veterinary and Animal Sciences",
+            "program_ids": [
+              "bs_dairy_technology"
+            ]
+          },
+          {
+            "department_id": "department_of_livestock_and_poultry_sciences",
+            "name": "Department of Livestock and Poultry Sciences",
+            "faculty": "Faculty of Veterinary and Animal Sciences",
+            "program_ids": [
+              "bs_poultry_science"
+            ]
+          },
+          {
+            "department_id": "department_of_microbiology",
+            "name": "Department of Microbiology",
+            "faculty": "Faculty of Veterinary and Animal Sciences",
+            "program_ids": [
+              "bs_microbiology",
+              "post_adp_microbiology"
+            ]
+          },
+          {
+            "department_id": "department_of_biotechnology",
+            "name": "Department of Biotechnology",
+            "faculty": "Faculty of Veterinary and Animal Sciences",
+            "program_ids": [
+              "bs_biotechnology",
+              "post_adp_biotechnology"
+            ]
+          },
+          {
+            "department_id": "department_of_clinical_sciences_pathobiology",
+            "name": "Department of Clinical Sciences / Pathobiology",
+            "faculty": "Faculty of Veterinary and Animal Sciences",
+            "program_ids": [
+              "livestock_assistant_diploma_lad"
+            ]
+          }
+        ]
+      },
+      {
+        "faculty_id": "faculty_of_agricultural_sciences_and_technology",
+        "name": "Faculty of Agricultural Sciences and Technology",
+        "departments": [
+          {
+            "department_id": "department_of_plant_production_agronomy",
+            "name": "Department of Plant Production & Agronomy",
+            "faculty": "Faculty of Agricultural Sciences and Technology",
+            "program_ids": [
+              "b_sc_hons_agriculture"
+            ]
+          },
+          {
+            "department_id": "department_of_entomology_food_science",
+            "name": "Department of Entomology & Food Science",
+            "faculty": "Faculty of Agricultural Sciences and Technology",
+            "program_ids": [
+              "bs_food_science_technology"
+            ]
+          },
+          {
+            "department_id": "department_of_horticulture_plant_pathology",
+            "name": "Department of Horticulture & Plant Pathology",
+            "faculty": "Faculty of Agricultural Sciences and Technology",
+            "program_ids": [
+              "bs_horticulture_plant_pathology"
+            ]
+          }
+        ]
+      },
+      {
+        "faculty_id": "faculty_of_management_humanities_social_sciences",
+        "name": "Faculty of Management, Humanities & Social Sciences",
+        "departments": [
+          {
+            "department_id": "department_of_behavioral_sciences",
+            "name": "Department of Behavioral Sciences",
+            "faculty": "Faculty of Management, Humanities & Social Sciences",
+            "program_ids": [
+              "bs_applied_psychology",
+              "post_adp_psychology",
+              "bs_sports_science",
+              "post_adp_sports_science"
+            ]
+          },
+          {
+            "department_id": "department_of_islamic_studies_and_languages",
+            "name": "Department of Islamic Studies and Languages",
+            "faculty": "Faculty of Management, Humanities & Social Sciences",
+            "program_ids": [
+              "bs_english",
+              "post_adp_english",
+              "bs_islamic_studies",
+              "post_adp_islamic_studies",
+              "bs_urdu",
+              "post_adp_urdu"
+            ]
+          },
+          {
+            "department_id": "department_of_economics_business_administration",
+            "name": "Department of Economics & Business Administration",
+            "faculty": "Faculty of Management, Humanities & Social Sciences",
+            "program_ids": [
+              "bba_general",
+              "bba_it",
+              "post_adp_bba",
+              "bs_economics",
+              "post_adp_economics",
+              "bs_public_administration_governance",
+              "post_adp_public_administration"
+            ]
+          },
+          {
+            "department_id": "department_of_sociology_social_sciences",
+            "name": "Department of Sociology & Social Sciences",
+            "faculty": "Faculty of Management, Humanities & Social Sciences",
+            "program_ids": [
+              "bs_international_relations",
+              "post_adp_international_relations",
+              "bs_sociology",
+              "post_adp_sociology"
+            ]
+          },
+          {
+            "department_id": "department_of_education",
+            "name": "Department of Education",
+            "faculty": "Faculty of Management, Humanities & Social Sciences",
+            "program_ids": [
+              "bs_education",
+              "b_ed_hons",
+              "post_adp_education",
+              "b_ed_1_5_years"
+            ]
+          }
+        ]
+      },
+      {
+        "faculty_id": "faculty_of_natural_sciences",
+        "name": "Faculty of Natural Sciences",
+        "departments": [
+          {
+            "department_id": "department_of_chemistry",
+            "name": "Department of Chemistry",
+            "faculty": "Faculty of Natural Sciences",
+            "program_ids": [
+              "bs_chemistry",
+              "post_adp_chemistry"
+            ]
+          },
+          {
+            "department_id": "department_of_environmental_sciences",
+            "name": "Department of Environmental Sciences",
+            "faculty": "Faculty of Natural Sciences",
+            "program_ids": [
+              "bs_environmental_sciences",
+              "post_adp_environmental_sciences"
+            ]
+          },
+          {
+            "department_id": "department_of_mathematics",
+            "name": "Department of Mathematics",
+            "faculty": "Faculty of Natural Sciences",
+            "program_ids": [
+              "bs_mathematics",
+              "post_adp_mathematics"
+            ]
+          },
+          {
+            "department_id": "department_of_physics",
+            "name": "Department of Physics",
+            "faculty": "Faculty of Natural Sciences",
+            "program_ids": [
+              "bs_physics"
+            ]
+          },
+          {
+            "department_id": "department_of_zoology",
+            "name": "Department of Zoology",
+            "faculty": "Faculty of Natural Sciences",
+            "program_ids": [
+              "bs_zoology",
+              "post_adp_zoology"
+            ]
+          },
+          {
+            "department_id": "department_of_botany",
+            "name": "Department of Botany",
+            "faculty": "Faculty of Natural Sciences",
+            "program_ids": [
+              "bs_botany",
+              "post_adp_botany"
+            ]
+          }
+        ]
+      }
+    ],
+    "programs": [
+      {
+        "program_id": "bs_computer_science",
+        "name": "BS Computer Science",
+        "short_name": "BSCS",
+        "original_name": "BS Computer Science (BSCS)",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Computer Science",
+        "faculty": "Faculty of Computing & Engineering",
+        "group": "computing",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "computing",
+        "fee_status": "confirmed",
+        "aliases_hint": "BSCS"
+      },
+      {
+        "program_id": "bs_information_technology",
+        "name": "BS Information Technology",
+        "short_name": "BSIT",
+        "original_name": "BSCS - Information Technology (BSIT)",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Information Technology",
+        "faculty": "Faculty of Computing & Engineering",
+        "group": "computing",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "computing",
+        "fee_status": "confirmed",
+        "aliases_hint": "BSIT"
+      },
+      {
+        "program_id": "bs_artificial_intelligence",
+        "name": "BS Artificial Intelligence",
+        "short_name": "BSAI",
+        "original_name": "BSCS - Artificial Intelligence (BSAI)",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Artificial Intelligence",
+        "faculty": "Faculty of Computing & Engineering",
+        "group": "computing",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "computing",
+        "fee_status": "confirmed",
+        "aliases_hint": "BSAI"
+      },
+      {
+        "program_id": "bs_data_science",
+        "name": "BS Data Science",
+        "short_name": "BSDS",
+        "original_name": "BSCS - Data Science (BSDS)",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Data Science",
+        "faculty": "Faculty of Computing & Engineering",
+        "group": "computing",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "computing",
+        "fee_status": "confirmed",
+        "aliases_hint": "BSDS"
+      },
+      {
+        "program_id": "bs_computer_engineering",
+        "name": "BS Computer Engineering",
+        "short_name": "BSCE",
+        "original_name": "BS Computer Engineering",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Computer Engineering",
+        "faculty": "Faculty of Computing & Engineering",
+        "group": "comp_engineering",
+        "eligibility": "At least 60% marks in F.Sc./A-Level or relevant DAE + Must qualify UET Lahore Entrance Test.",
+        "merit_formula": "10% Matric/SSC + 50% F.Sc. or Equivalent + 40% Entry Test",
+        "verified": false,
+        "shifts": [
+          "Morning"
+        ],
+        "fee_group": "comp_engineering",
+        "fee_status": "needs_confirmation",
+        "note": "Eligibility (60% + UET entry test) conflicts with the generic 50% / 30-70 merit rule in another section; confirm.",
+        "aliases_hint": "BSCE"
+      },
+      {
+        "program_id": "bs_dairy_technology",
+        "name": "BS Dairy Technology",
+        "short_name": null,
+        "original_name": "BS Dairy Technology",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Biosciences / Dairy Technology",
+        "faculty": "Faculty of Veterinary and Animal Sciences",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_poultry_science",
+        "name": "BS Poultry Science",
+        "short_name": null,
+        "original_name": "BS Poultry Sciences",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Livestock and Poultry Sciences",
+        "faculty": "Faculty of Veterinary and Animal Sciences",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_microbiology",
+        "name": "BS Microbiology",
+        "short_name": null,
+        "original_name": "BS Microbiology",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Microbiology",
+        "faculty": "Faculty of Veterinary and Animal Sciences",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_microbiology",
+        "name": "Post-ADP Microbiology",
+        "short_name": null,
+        "original_name": "POST-ADP (Microbiology)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Microbiology",
+        "faculty": "Faculty of Veterinary and Animal Sciences",
+        "group": "post_adp_natural",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_natural",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_biotechnology",
+        "name": "BS Biotechnology",
+        "short_name": null,
+        "original_name": "BS Biotechnology",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Biotechnology",
+        "faculty": "Faculty of Veterinary and Animal Sciences",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_biotechnology",
+        "name": "Post-ADP Biotechnology",
+        "short_name": null,
+        "original_name": "POST-ADP (Biotechnology)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Biotechnology",
+        "faculty": "Faculty of Veterinary and Animal Sciences",
+        "group": "post_adp_natural",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_natural",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "livestock_assistant_diploma_lad",
+        "name": "Livestock Assistant Diploma (LAD)",
+        "short_name": "LAD",
+        "original_name": "Livestock Assistant Diploma (LAD)",
+        "type": "Diploma",
+        "duration": "2 Years (4 Semesters)",
+        "department": "Department of Clinical Sciences / Pathobiology",
+        "faculty": "Faculty of Veterinary and Animal Sciences",
+        "group": "diploma_lad",
+        "eligibility": "Matriculation (Science Group) with minimum 45% marks.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "diploma_lad",
+        "fee_status": "confirmed",
+        "aliases_hint": "LAD"
+      },
+      {
+        "program_id": "b_sc_hons_agriculture",
+        "name": "B.Sc. (Hons) Agriculture",
+        "short_name": null,
+        "original_name": "B.Sc. (Hons) Agriculture",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Plant Production & Agronomy",
+        "faculty": "Faculty of Agricultural Sciences and Technology",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_food_science_technology",
+        "name": "BS Food Science & Technology",
+        "short_name": null,
+        "original_name": "BS Food Science & Technology",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Entomology & Food Science",
+        "faculty": "Faculty of Agricultural Sciences and Technology",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_horticulture_plant_pathology",
+        "name": "BS Horticulture & Plant Pathology",
+        "short_name": null,
+        "original_name": "BS Horticulture & Plant Pathology",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Horticulture & Plant Pathology",
+        "faculty": "Faculty of Agricultural Sciences and Technology",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_applied_psychology",
+        "name": "BS Applied Psychology",
+        "short_name": null,
+        "original_name": "BS Applied Psychology",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Behavioral Sciences",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "arts_humanities",
+        "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "arts_humanities",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_psychology",
+        "name": "Post-ADP Psychology",
+        "short_name": null,
+        "original_name": "POST-ADP (Psychology)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Behavioral Sciences",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "post_adp_arts",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_arts",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_sports_science",
+        "name": "BS Sports Science",
+        "short_name": null,
+        "original_name": "BS Sports Science",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Behavioral Sciences",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "arts_humanities",
+        "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "arts_humanities",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_sports_science",
+        "name": "Post-ADP Sports Science",
+        "short_name": null,
+        "original_name": "POST-ADP (Sports Science)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Behavioral Sciences",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "post_adp_arts",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_arts",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_english",
+        "name": "BS English",
+        "short_name": null,
+        "original_name": "BS English",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Islamic Studies and Languages",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "arts_humanities",
+        "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "arts_humanities",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_english",
+        "name": "Post-ADP English",
+        "short_name": null,
+        "original_name": "POST-ADP (English)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Islamic Studies and Languages",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "post_adp_arts",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_arts",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_islamic_studies",
+        "name": "BS Islamic Studies",
+        "short_name": null,
+        "original_name": "BS Islamic Studies",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Islamic Studies and Languages",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "arts_humanities",
+        "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "arts_humanities",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_islamic_studies",
+        "name": "Post-ADP Islamic Studies",
+        "short_name": null,
+        "original_name": "POST-ADP (Islamic Studies)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Islamic Studies and Languages",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "post_adp_arts",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_arts",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_urdu",
+        "name": "BS Urdu",
+        "short_name": null,
+        "original_name": "BS Urdu",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Islamic Studies and Languages",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "arts_humanities",
+        "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "arts_humanities",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_urdu",
+        "name": "Post-ADP Urdu",
+        "short_name": null,
+        "original_name": "POST-ADP (Urdu)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Islamic Studies and Languages",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "post_adp_arts",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_arts",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bba_general",
+        "name": "BBA (General)",
+        "short_name": "BBA",
+        "original_name": "BBA (General)",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Economics & Business Administration",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "X_BBA",
+        "eligibility": null,
+        "merit_formula": null,
+        "fee_group": null,
+        "verified": false,
+        "fee_status": "conflict",
+        "note": "Source conflict: one section puts BBA in the Natural/Applied fee group (50% eligibility), another in the Arts/Humanities group (45%). Fee and eligibility withheld until confirmed.",
+        "aliases_hint": "BBA"
+      },
+      {
+        "program_id": "bba_it",
+        "name": "BBA-IT",
+        "short_name": "BBA-IT",
+        "original_name": "BBA-IT",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Economics & Business Administration",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "X_BBA",
+        "eligibility": null,
+        "merit_formula": null,
+        "fee_group": null,
+        "verified": false,
+        "fee_status": "conflict",
+        "note": "Source conflict: one section puts BBA in the Natural/Applied fee group (50% eligibility), another in the Arts/Humanities group (45%). Fee and eligibility withheld until confirmed.",
+        "aliases_hint": "BBA-IT"
+      },
+      {
+        "program_id": "post_adp_bba",
+        "name": "Post-ADP BBA",
+        "short_name": null,
+        "original_name": "POST-ADP (BBA)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Economics & Business Administration",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "X_PBBA",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "fee_group": null,
+        "verified": false,
+        "fee_status": "conflict",
+        "note": "Post-ADP BBA fee group not specified (BBA group conflict). Fee withheld.",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_economics",
+        "name": "BS Economics",
+        "short_name": null,
+        "original_name": "BS Economics",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Economics & Business Administration",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "arts_humanities",
+        "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "arts_humanities",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_economics",
+        "name": "Post-ADP Economics",
+        "short_name": null,
+        "original_name": "POST-ADP (Economics)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Economics & Business Administration",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "post_adp_arts",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_arts",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_public_administration_governance",
+        "name": "BS Public Administration & Governance",
+        "short_name": null,
+        "original_name": "BS Public Administration & Governance",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Economics & Business Administration",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "arts_humanities",
+        "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "arts_humanities",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_public_administration",
+        "name": "Post-ADP Public Administration",
+        "short_name": null,
+        "original_name": "POST-ADP (Public Administration)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Economics & Business Administration",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "post_adp_arts",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_arts",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_international_relations",
+        "name": "BS International Relations",
+        "short_name": "BS IR",
+        "original_name": "BS International Relations (BS IR)",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Sociology & Social Sciences",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "arts_humanities",
+        "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "arts_humanities",
+        "fee_status": "confirmed",
+        "aliases_hint": "BS IR"
+      },
+      {
+        "program_id": "post_adp_international_relations",
+        "name": "Post-ADP International Relations",
+        "short_name": null,
+        "original_name": "POST-ADP (International Relations)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Sociology & Social Sciences",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "post_adp_arts",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_arts",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_sociology",
+        "name": "BS Sociology",
+        "short_name": null,
+        "original_name": "BS Sociology",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Sociology & Social Sciences",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "arts_humanities",
+        "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "arts_humanities",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_sociology",
+        "name": "Post-ADP Sociology",
+        "short_name": null,
+        "original_name": "POST-ADP (Sociology)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Sociology & Social Sciences",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "post_adp_arts",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_arts",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_education",
+        "name": "BS Education",
+        "short_name": null,
+        "original_name": "BS Education",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Education",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "arts_humanities",
+        "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "arts_humanities",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "b_ed_hons",
+        "name": "B.Ed (Hons)",
+        "short_name": null,
+        "original_name": "B.Ed Hons",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Education",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "arts_humanities",
+        "eligibility": "Intermediate (FA, F.Sc, ICS, I.Com) or Equivalent with minimum 45% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "arts_humanities",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_education",
+        "name": "Post-ADP Education",
+        "short_name": null,
+        "original_name": "POST-ADP (Education)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Education",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "post_adp_arts",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_arts",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "b_ed_1_5_years",
+        "name": "B.Ed (1.5 Years)",
+        "short_name": null,
+        "original_name": "B.Ed",
+        "type": "Professional Degree",
+        "duration": "1.5 Years (3-4 Semesters)",
+        "department": "Department of Education",
+        "faculty": "Faculty of Management, Humanities & Social Sciences",
+        "group": "X_BED15",
+        "eligibility": "BS (Hons)/Master or Equivalent with at least 45% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "fee_group": null,
+        "verified": false,
+        "fee_status": "suspicious",
+        "note": "Source lists the full 8-semester Arts total (302,517 morning) for a 1.5-year programme; probably wrong. Fee withheld.",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_chemistry",
+        "name": "BS Chemistry",
+        "short_name": null,
+        "original_name": "BS Chemistry",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Chemistry",
+        "faculty": "Faculty of Natural Sciences",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_chemistry",
+        "name": "Post-ADP Chemistry",
+        "short_name": null,
+        "original_name": "POST-ADP (Chemistry)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Chemistry",
+        "faculty": "Faculty of Natural Sciences",
+        "group": "post_adp_natural",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_natural",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_environmental_sciences",
+        "name": "BS Environmental Sciences",
+        "short_name": null,
+        "original_name": "BS Environmental Sciences",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Environmental Sciences",
+        "faculty": "Faculty of Natural Sciences",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_environmental_sciences",
+        "name": "Post-ADP Environmental Sciences",
+        "short_name": null,
+        "original_name": "POST-ADP (Environmental Science)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Environmental Sciences",
+        "faculty": "Faculty of Natural Sciences",
+        "group": "post_adp_natural",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_natural",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_mathematics",
+        "name": "BS Mathematics",
+        "short_name": null,
+        "original_name": "BS Mathematics",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Mathematics",
+        "faculty": "Faculty of Natural Sciences",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_mathematics",
+        "name": "Post-ADP Mathematics",
+        "short_name": null,
+        "original_name": "POST-ADP (Mathematics)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Mathematics",
+        "faculty": "Faculty of Natural Sciences",
+        "group": "post_adp_natural",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_natural",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_physics",
+        "name": "BS Physics",
+        "short_name": null,
+        "original_name": "BS Physics",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Physics",
+        "faculty": "Faculty of Natural Sciences",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_zoology",
+        "name": "BS Zoology",
+        "short_name": null,
+        "original_name": "BS Zoology",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Zoology",
+        "faculty": "Faculty of Natural Sciences",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_zoology",
+        "name": "Post-ADP Zoology",
+        "short_name": null,
+        "original_name": "POST-ADP (Zoology)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Zoology",
+        "faculty": "Faculty of Natural Sciences",
+        "group": "post_adp_natural",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_natural",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "bs_botany",
+        "name": "BS Botany",
+        "short_name": null,
+        "original_name": "BS Botany",
+        "type": "Undergraduate",
+        "duration": "4 Years (8 Semesters)",
+        "department": "Department of Botany",
+        "faculty": "Faculty of Natural Sciences",
+        "group": "natural_applied",
+        "eligibility": "F.Sc. Pre-Engineering, Pre-Medical, ICS, or Equivalent qualification with at least 50% marks.",
+        "merit_formula": "30% Matric + 70% Intermediate",
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "natural_applied",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      },
+      {
+        "program_id": "post_adp_botany",
+        "name": "Post-ADP Botany",
+        "short_name": null,
+        "original_name": "POST-ADP (Botany)",
+        "type": "Post-ADP",
+        "duration": "2 Years (4 Semesters, 5th to 8th)",
+        "department": "Department of Botany",
+        "faculty": "Faculty of Natural Sciences",
+        "group": "post_adp_natural",
+        "eligibility": "Completion of ADP, ADA, ADS, or traditional BA/B.Sc with at least 45% marks or 2.00/4.00 CGPA.",
+        "merit_formula": null,
+        "verified": true,
+        "shifts": [
+          "Morning",
+          "Afternoon"
+        ],
+        "fee_group": "post_adp_natural",
+        "fee_status": "confirmed",
+        "aliases_hint": null
+      }
+    ]
+  },
+  "fees_2026": {
+    "comp_engineering": {
+      "label": "BS Computer Engineering (special criteria)",
+      "morning": {
+        "semesters": [
+          62300,
+          61300,
+          66580,
+          72388,
+          78777,
+          85804,
+          93535,
+          102038
+        ],
+        "total": 622722
+      },
+      "afternoon": null
+    },
+    "computing": {
+      "label": "Computing Group",
+      "morning": {
+        "semesters": [
+          44300,
+          41500,
+          44800,
+          48430,
+          52423,
+          56815,
+          61647,
+          66962
+        ],
+        "total": 416877
+      },
+      "afternoon": {
+        "semesters": [
+          52300,
+          50300,
+          54480,
+          59078,
+          64136,
+          69699,
+          75819,
+          82551
+        ],
+        "total": 508363
+      }
+    },
+    "natural_applied": {
+      "label": "Natural, Applied & Agricultural Sciences Group",
+      "morning": {
+        "semesters": [
+          38300,
+          34900,
+          37540,
+          40444,
+          43638,
+          47152,
+          51017,
+          55269
+        ],
+        "total": 348260
+      },
+      "afternoon": {
+        "semesters": [
+          47300,
+          44800,
+          48430,
+          52423,
+          56815,
+          64647,
+          66962,
+          72808
+        ],
+        "total": 454185
+      }
+    },
+    "arts_humanities": {
+      "label": "Arts, Humanities & Social Sciences Group",
+      "morning": {
+        "semesters": [
+          34300,
+          30500,
+          32700,
+          35120,
+          37782,
+          40710,
+          43931,
+          47474
+        ],
+        "total": 302517
+      },
+      "afternoon": {
+        "semesters": [
+          42300,
+          39300,
+          42380,
+          45768,
+          49495,
+          53594,
+          58104,
+          63064
+        ],
+        "total": 394005
+      }
+    },
+    "post_adp_natural": {
+      "label": "Post-ADP Natural & Applied Sciences",
+      "morning": {
+        "semesters": [
+          38300,
+          34900,
+          37540,
+          40444
+        ],
+        "total": 151184
+      },
+      "afternoon": {
+        "semesters": [
+          47300,
+          44800,
+          48430,
+          52423
+        ],
+        "total": 192953
+      }
+    },
+    "post_adp_arts": {
+      "label": "Post-ADP Arts, Humanities & Social Sciences",
+      "morning": {
+        "semesters": [
+          34300,
+          30500,
+          32700,
+          35120
+        ],
+        "total": 132620
+      },
+      "afternoon": {
+        "semesters": [
+          42300,
+          39300,
+          42380,
+          45768
+        ],
+        "total": 169748
+      }
+    },
+    "diploma_lad": {
+      "label": "Livestock Assistant Diploma (LAD)",
+      "morning": {
+        "semesters": [
+          28300,
+          23900,
+          25440,
+          27134
+        ],
+        "total": 104774
+      },
+      "afternoon": {
+        "semesters": [
+          32300,
+          28300,
+          30280,
+          32458
+        ],
+        "total": 123338
+      }
+    }
+  },
+  "faqs": [
+    {
+      "faq_id": "faq_attendance_policy",
+      "question": "What is the attendance policy at University of Layyah?",
+      "answer": "Students must maintain a minimum of 75% attendance in each registered course to be eligible for final term examinations. Attendance falling below 75% results in an automatic course drop or 'F' grade due to short attendance.",
+      "verified": true
+    },
+    {
+      "faq_id": "faq_grading_system",
+      "question": "What grading system and passing criteria does UL follow?",
+      "answer": "University of Layyah follows the Choice Based Credit System (CBCS) aligned with HEC guidelines. The maximum possible CGPA is 4.00, and the passing mark threshold for any individual subject course is strictly 50%.",
+      "verified": true
+    },
+    {
+      "faq_id": "faq_exam_schedule",
+      "question": "When are midterm and final term examinations conducted?",
+      "answer": "Midterm examinations are held in the 8th week of the ongoing semester, while Final term examinations take place in the 16th week.",
+      "verified": true
+    },
+    {
+      "faq_id": "faq_discipline_rules",
+      "question": "What are the general discipline rules on campus?",
+      "answer": "Ragging, smoking, political profiling, and union strikes are strictly banned inside university premises. Carrying and wearing a valid Student ID Card at all times is mandatory for campus entry.",
+      "verified": true
+    },
+    {
+      "faq_id": "faq_student_hostel_fee",
+      "question": "What is the fee for the student hostel at University of Layyah?",
+      "answer": "The annual hostel fee for students is 18,500 PKR (excluding dynamic monthly mess charges). Seats are allocated strictly on a merit and distance basis.",
+      "verified": false,
+      "note": "Not backed by a dedicated section in the data (no student-hostel section; transport-card scope/terms conflict with Transport Dept description and bus routes)."
+    },
+    {
+      "faq_id": "faq_transport_card",
+      "question": "What is the transport card fee and what routes are covered?",
+      "answer": "The transport card fee is 3,500 PKR per semester. Buses operate on routes connecting Layyah City, Chowk Azam, Fatehpur, and Karor Lal Esan directly to the university campuses.",
+      "verified": false,
+      "note": "Not backed by a dedicated section in the data (no student-hostel section; transport-card scope/terms conflict with Transport Dept description and bus routes)."
+    },
+    {
+      "faq_id": "faq_sports_gala",
+      "question": "When is the Sports Gala scheduled and what games are included?",
+      "answer": "The Main Sports Gala 2026 is scheduled for November 12, 2026, featuring inter-departmental tournaments in Cricket, Football, Badminton, Table Tennis, and Athletics.",
+      "verified": true,
+      "expires": "2026-11-13"
+    },
+    {
+      "faq_id": "faq_cafeteria_timings",
+      "question": "What are the Main Campus Cafeteria timings?",
+      "answer": "The Main Campus Cafeteria (adjacent to the Student Service Center) serves fresh meals, tea, and snacks daily from 7:30 AM to 5:00 PM.",
+      "verified": true
+    }
+  ]
+}
